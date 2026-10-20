@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"outline":"#797587","on-primary":"#ffffff","on-surface":"#1b1b25","inverse-surface":"#302f3a","error":"#ba1a1a","tertiary-fixed-dim":"#ffb3b0","tertiary-container":"#bf3c40","surface-bright":"#fcf8ff","inverse-primary":"#c9beff","background":"#fcf8ff","surface-container-lowest":"#ffffff","surface-variant":"#e3e1ef","surface-tint":"#5f3ce4","inverse-on-surface":"#f2effd","on-tertiary":"#ffffff","outline-variant":"#c9c4d8","secondary-fixed-dim":"#3adfaa","tertiary":"#9d232a","on-primary-fixed-variant":"#4616cc","error-container":"#ffdad6","on-tertiary-container":"#ffe8e6","secondary-container":"#5cf9c2","surface":"#fcf8ff","on-background":"#1b1b25","primary":"#532cd8","on-secondary":"#ffffff","on-error-container":"#93000a","primary-fixed":"#e6deff","on-tertiary-fixed-variant":"#8c1520","surface-dim":"#dbd8e7","on-error":"#ffffff","secondary":"#006c4e","on-surface-variant":"#484555","surface-container-high":"#e9e6f5","secondary-fixed":"#60fcc5","on-primary-fixed":"#1b0062","on-secondary-fixed":"#002115","on-tertiary-fixed":"#410006","on-primary-container":"#f0eaff","on-secondary-fixed-variant":"#00513a","primary-fixed-dim":"#c9beff","primary-container":"#6c4cf1","surface-container-highest":"#e3e1ef","on-secondary-container":"#007152","surface-container":"#efecfb","surface-container-low":"#f5f2ff","tertiary-fixed":"#ffdad8"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"margin-desktop":"3rem","gutter-desktop":"1.5rem","space-lg":"1.5rem","margin-tablet":"2rem","margin":"1rem","space-xl":"2.5rem","space-md":"1rem","space-xs":"0.25rem","gutter":"1.25rem","space-sm":"0.5rem"},fontFamily:{"currency-stat":["Plus Jakarta Sans"],"currency-stat-mobile":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"body-sm":["Inter"],"display-hero":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"body-lg":["Inter"],"headline-lg-mobile":["Plus Jakarta Sans"],"body-md":["Inter"],"display-hero-mobile":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"]},fontSize:{"currency-stat":["40px",{"lineHeight":"48px","letterSpacing":"-0.02em","fontWeight":"800"}],"currency-stat-mobile":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"800"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.04em","fontWeight":"700"}],"headline-md":["24px",{"lineHeight":"32px","letterSpacing":"-0.015em","fontWeight":"700"}],"headline-sm":["18px",{"lineHeight":"26px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-sm":["13px",{"lineHeight":"18px","fontWeight":"400"}],"display-hero":["56px",{"lineHeight":"64px","letterSpacing":"-0.03em","fontWeight":"800"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.02em","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"26px","fontWeight":"400"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.015em","fontWeight":"700"}],"body-md":["14px",{"lineHeight":"22px","fontWeight":"400"}],"display-hero-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"800"}],"headline-lg":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"700"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><aside class="fixed left-0 top-0 h-full w-72 bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-50 flex flex-col justify-between p-space-md"><div class="flex flex-col gap-space-md"><div class="flex items-center gap-space-sm px-space-xs py-space-xs"><img alt="Lumo Brand Mark" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WXbE-S-wugxw1daMgV8vD3jTdSznBdILuFIwlgV8CkaRqQG1jq_gYbj3VBy_hFvMrgV1pg90_oRn_HYmH9Sp8B1xXpWQHXFVwe12vtBsaud1UFqvEGNDrKNikHQUy9FlEyFTlOz0X4kZYcnbkjVwd6UWzhGjBkp8vvOAH_cgIbQaHmW6IJWIuxbpZc7e4INCJrThnKM6CEubVm9HSmt_xFwCuOFePB2nXwbIEKoSGViI3LA3jArnX0tQ"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface leading-none">Lumo</span><span class="font-label-sm text-label-sm text-on-surface-variant">AI Financial Planner</span></div></div><nav class="flex flex-col gap-space-xs mt-space-sm" data-active-classes="bg-primary-container text-on-primary-container font-headline-sm rounded-full shadow-[0_4px_14px_rgba(108,76,241,0.25)]"><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-full text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all duration-200" data-path="dashboard" href="#"><span class="material-symbols-outlined text-primary">grid_view</span><span class="font-headline-sm text-headline-sm">Dashboard</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-full text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all duration-200" data-path="financial-profile" href="#"><span class="material-symbols-outlined text-on-surface-variant">account_balance_wallet</span><span class="font-headline-sm text-headline-sm">Financial Profile</span></a><a class="flex items-center justify-between px-space-md py-space-sm rounded-full text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all duration-200" data-path="goals-manager" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-on-surface-variant">flag</span><span class="font-headline-sm text-headline-sm">Goals Manager</span></div><span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">4</span></a><a aria-current="page" class="flex items-center gap-space-sm px-space-md py-space-sm transition-all duration-200 bg-primary-container text-on-primary-container font-headline-sm rounded-full shadow-[0_4px_14px_rgba(108,76,241,0.25)]" data-path="life-roadmap-timeline" href="#"><span class="material-symbols-outlined text-on-surface-variant">timeline</span><span class="font-headline-sm text-headline-sm">Roadmap</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-full text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all duration-200" data-path="scenario-simulator" href="#"><span class="material-symbols-outlined text-on-surface-variant">tune</span><span class="font-headline-sm text-headline-sm">Simulator</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-full text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all duration-200" data-path="compare-options" href="#"><span class="material-symbols-outlined text-on-surface-variant">balance</span><span class="font-headline-sm text-headline-sm">Invest Options</span></a><a class="flex items-center justify-between px-space-md py-space-sm rounded-full text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all duration-200" data-path="lumo-ai-chat" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-primary">auto_awesome</span><span class="font-headline-sm text-headline-sm">Lumo AI</span></div><span class="flex h-2 w-2 rounded-full bg-primary animate-pulse"></span></a></nav></div><div class="flex flex-col gap-space-sm pt-space-md bg-surface-container-low rounded-xl p-space-sm"><div class="flex items-center gap-space-sm"><div class="relative"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6xWsUrxUL_q0-7r-QAR9p0GRLd_ATKKzSPyGf5J_zbURoSHb5d52QfFMSpdqdwSuiF7Yp6laP3x6A4PThC8gfY9GzveJMqPsK0V-Z11lLZDEhHeObasmFeJ-WrHb9Y2ZtGoDhjQkMLspuq00byHgW2fOTuEeUUXANEyukWnwTbT_mLZXNgWF19QLqSUgZjH5To-f9QTZY-I1MTqEljPayP1RuoazFkvn-B9o-dzFWt_Q01wUJ-XW3"/><span class="absolute bottom-0 right-0 w-2.5 h-2.5 rounded-full bg-secondary-fixed-dim ring-2 ring-surface-container-lowest"></span></div><div class="flex flex-col flex-1 min-w-0"><span class="font-headline-sm text-headline-sm text-on-surface truncate">Alex Vance</span><span class="font-label-sm text-label-sm text-on-surface-variant truncate">PRO Member</span></div><button class="flex items-center justify-center text-on-surface-variant hover:text-on-surface p-space-xs"><span class="material-symbols-outlined">settings</span></button></div></div></aside><div class="pl-72"><header class="fixed top-0 left-72 right-0 h-16 bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-40 flex items-center justify-between px-space-lg"><div class="flex items-center gap-space-md flex-1 max-w-lg"><div class="flex items-center gap-space-xs w-full bg-surface-container-lowest rounded-full px-space-md py-space-xs shadow-[0_1px_8px_rgba(0,0,0,0.02)]"><span class="material-symbols-outlined text-on-surface-variant">search</span><input class="w-full bg-transparent font-body-sm text-body-sm text-on-surface placeholder:text-on-surface-variant focus:outline-none" placeholder="Ask Lumo or search goals, assets, metrics..." type="text"/></div></div><div class="flex items-center gap-space-md"><div class="hidden md:flex items-center gap-space-sm bg-surface-container-low px-space-md py-1.5 rounded-full"><span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Health Score</span><span class="font-headline-sm text-headline-sm text-secondary">94/100</span></div><button class="flex items-center gap-space-xs bg-primary text-on-primary px-space-md py-2 rounded-full font-headline-sm text-headline-sm shadow-[0_4px_14px_rgba(108,76,241,0.35)] hover:-translate-y-0.5 transition-transform duration-200"><span class="material-symbols-outlined text-lg">add</span><span>New Goal</span></button><div class="flex items-center gap-space-xs text-on-surface-variant"><button class="relative p-space-xs rounded-full hover:bg-surface-container-high hover:text-on-surface transition-colors"><span class="material-symbols-outlined">notifications</span><span class="absolute top-1 right-1 w-2 h-2 rounded-full bg-error"></span></button></div><div class="flex items-center"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6xWsUrxUL_q0-7r-QAR9p0GRLd_ATKKzSPyGf5J_zbURoSHb5d52QfFMSpdqdwSuiF7Yp6laP3x6A4PThC8gfY9GzveJMqPsK0V-Z11lLZDEhHeObasmFeJ-WrHb9Y2ZtGoDhjQkMLspuq00byHgW2fOTuEeUUXANEyukWnwTbT_mLZXNgWF19QLqSUgZjH5To-f9QTZY-I1MTqEljPayP1RuoazFkvn-B9o-dzFWt_Q01wUJ-XW3"/></div></div></header><main class="relative pt-16 w-full px-space-lg bg-surface min-h-screen"><div class="flex flex-col w-full pb-space-xl">
+<!-- Subtle ambient decorative glow elements behind Bento layout -->
+<div class="relative w-full max-w-7xl mx-auto space-y-space-lg">
+<!-- Top Headline & Action Strip -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md pt-space-sm">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-space-sm py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+            AI Monte Carlo Engine v4.2
+          </span>
+<span class="inline-flex items-center gap-1 px-space-sm py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary animate-ping"></span>
+            Live Projection Active
+          </span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Life Roadmap &amp; Milestones</h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+          Visualizing your journey from age 26 to 56. Stress-test monthly velocity, inflation shifts, and real-time capital gaps.
+        </p>
+</div>
+<!-- Quick Summary Stat Cards -->
+<div class="flex items-center gap-space-sm self-start md:self-auto">
+<div class="flex items-center gap-space-sm bg-surface-container-lowest px-space-md py-space-sm rounded-2xl shadow-sm">
+<div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">flag</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Target Nest Egg</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">$2,850,000</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm bg-surface-container-lowest px-space-md py-space-sm rounded-2xl shadow-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined">verified</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Roadmap Feasibility</span>
+<span class="font-headline-sm text-headline-sm text-secondary">88.4%</span>
+</div>
+</div>
+</div>
+</div>
+<!-- 1. Interactive Simulation Controls Bento Strip -->
+<div class="bg-surface-container-lowest p-space-lg rounded-3xl shadow-sm space-y-space-md">
+<div class="flex flex-wrap items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-sm">tune</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface">Interactive Simulation Variables</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant hidden sm:inline">— drag sliders to dynamically recast projection curves</span>
+</div>
+<button class="flex items-center gap-1 font-label-md text-label-md text-primary hover:text-primary-container transition-colors" id="reset-sim-btn">
+<span class="material-symbols-outlined text-sm">refresh</span>
+          Reset Defaults
+        </button>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Slider 1: Monthly Savings -->
+<div class="bg-surface-container-low rounded-2xl p-space-md flex flex-col justify-between hover:bg-surface-container transition-all">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase">Monthly Savings</span>
+<span class="font-headline-sm text-headline-sm text-primary" id="savings-val">$3,550<span class="text-xs font-normal text-on-surface-variant">/mo</span></span>
+</div>
+<div class="mt-space-sm space-y-1">
+<input class="w-full h-1.5 bg-surface-container-highest rounded-lg appearance-none cursor-pointer accent-primary" id="savings-slider" max="6000" min="1500" step="50" type="range" value="3550"/>
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant pt-1">
+<span>$1.5k</span>
+<span>$3.5k</span>
+<span>$6.0k</span>
+</div>
+</div>
+</div>
+<!-- Slider 2: Annual Income Growth -->
+<div class="bg-surface-container-low rounded-2xl p-space-md flex flex-col justify-between hover:bg-surface-container transition-all">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase">Income Growth Rate</span>
+<span class="font-headline-sm text-headline-sm text-secondary" id="growth-val">5.5%<span class="text-xs font-normal text-on-surface-variant">/yr</span></span>
+</div>
+<div class="mt-space-sm space-y-1">
+<input class="w-full h-1.5 bg-surface-container-highest rounded-lg appearance-none cursor-pointer accent-secondary" id="growth-slider" max="12.0" min="1.0" step="0.5" type="range" value="5.5"/>
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant pt-1">
+<span>1.0%</span>
+<span>6.0%</span>
+<span>12.0%</span>
+</div>
+</div>
+</div>
+<!-- Slider 3: Inflation Rate -->
+<div class="bg-surface-container-low rounded-2xl p-space-md flex flex-col justify-between hover:bg-surface-container transition-all">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase">Estimated Inflation</span>
+<span class="font-headline-sm text-headline-sm text-tertiary" id="inflation-val">3.2%<span class="text-xs font-normal text-on-surface-variant">/yr</span></span>
+</div>
+<div class="mt-space-sm space-y-1">
+<input class="w-full h-1.5 bg-surface-container-highest rounded-lg appearance-none cursor-pointer accent-tertiary" id="inflation-slider" max="7.0" min="1.5" step="0.1" type="range" value="3.2"/>
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant pt-1">
+<span>1.5%</span>
+<span>3.5%</span>
+<span>7.0%</span>
+</div>
+</div>
+</div>
+<!-- Slider 4: Investment Return -->
+<div class="bg-surface-container-low rounded-2xl p-space-md flex flex-col justify-between hover:bg-surface-container transition-all">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase">Portfolio Return</span>
+<span class="font-headline-sm text-headline-sm text-primary-container" id="return-val">8.5%<span class="text-xs font-normal text-on-surface-variant">/yr</span></span>
+</div>
+<div class="mt-space-sm space-y-1">
+<input class="w-full h-1.5 bg-surface-container-highest rounded-lg appearance-none cursor-pointer accent-primary-container" id="return-slider" max="14.0" min="4.0" step="0.25" type="range" value="8.5"/>
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant pt-1">
+<span>4.0%</span>
+<span>8.5%</span>
+<span>14.0%</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- 2. Dual Line Chart Visualization: Current Trajectory vs Goal Path -->
+<div class="bg-surface-container-lowest p-space-lg rounded-3xl shadow-sm relative overflow-hidden">
+<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-md mb-space-md">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-md text-headline-md text-on-surface">Capital Accumulation Curve</span>
+<span class="px-2 py-0.5 rounded-full bg-tertiary-fixed text-tertiary font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">warning</span>
+              2031 Home Gap: -$24,500
+            </span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+            Compound projection adjusted for nominal wage step-ups and asset yield variance.
+          </p>
+</div>
+<!-- Chart Legend -->
+<div class="flex items-center gap-space-md">
+<div class="flex items-center gap-2">
+<span class="w-3.5 h-1 rounded-full bg-secondary"></span>
+<span class="font-label-sm text-label-sm text-on-surface">Goal Path</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-3.5 h-1 rounded-full bg-primary-container border-dashed"></span>
+<span class="font-label-sm text-label-sm text-on-surface">Current Trajectory</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-3.5 h-2 rounded bg-tertiary-fixed-dim/50"></span>
+<span class="font-label-sm text-label-sm text-tertiary">Deficit Zone</span>
+</div>
+</div>
+</div>
+<!-- SVG Dual Line Chart with Coral Gap shading -->
+<div class="relative w-full h-72 sm:h-80 select-none">
+<svg class="w-full h-full overflow-visible" id="chart-svg" preserveaspectratio="none" viewbox="0 0 1000 320">
+<defs>
+<lineargradient id="goalGrad" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="#006c4e" stop-opacity="0.18"></stop>
+<stop offset="100%" stop-color="#006c4e" stop-opacity="0.0"></stop>
+</lineargradient>
+<lineargradient id="trajectoryGrad" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="#6c4cf1" stop-opacity="0.22"></stop>
+<stop offset="100%" stop-color="#6c4cf1" stop-opacity="0.0"></stop>
+</lineargradient>
+<lineargradient id="gapGrad" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="#ffb3b0" stop-opacity="0.6"></stop>
+<stop offset="100%" stop-color="#ffb3b0" stop-opacity="0.08"></stop>
+</lineargradient>
+</defs>
+<!-- Horizontal Gridlines -->
+<line stroke="#efecfb" stroke-dasharray="4 4" stroke-width="1.5" x1="50" x2="980" y1="40" y2="40"></line>
+<line stroke="#efecfb" stroke-dasharray="4 4" stroke-width="1.5" x1="50" x2="980" y1="110" y2="110"></line>
+<line stroke="#efecfb" stroke-dasharray="4 4" stroke-width="1.5" x1="50" x2="980" y1="180" y2="180"></line>
+<line stroke="#efecfb" stroke-dasharray="4 4" stroke-width="1.5" x1="50" x2="980" y1="250" y2="250"></line>
+<!-- Y-Axis Value Labels -->
+<text class="text-[11px] font-sans font-medium" fill="#797587" text-anchor="end" x="40" y="44">$3.0M</text>
+<text class="text-[11px] font-sans font-medium" fill="#797587" text-anchor="end" x="40" y="114">$1.5M</text>
+<text class="text-[11px] font-sans font-medium" fill="#797587" text-anchor="end" x="40" y="184">$500k</text>
+<text class="text-[11px] font-sans font-medium" fill="#797587" text-anchor="end" x="40" y="254">$50k</text>
+<!-- Deficit Shading Band (2030 to 2034) -->
+<path d="M 230 236 C 260 220 285 208 340 185 L 340 215 C 285 238 260 248 230 250 Z" fill="url(#gapGrad)"></path>
+<!-- Goal Path Area & Line (Ideal) -->
+<path d="M 60 265 C 150 255 220 238 310 200 C 400 160 550 120 700 80 C 850 48 920 38 970 32 L 970 270 L 60 270 Z" fill="url(#goalGrad)"></path>
+<path d="M 60 265 C 150 255 220 238 310 200 C 400 160 550 120 700 80 C 850 48 920 38 970 32" fill="none" id="goal-line" stroke="#006c4e" stroke-linecap="round" stroke-width="3.5"></path>
+<!-- Current Trajectory Area & Line (Simulated) -->
+<path d="M 60 265 C 150 258 220 248 310 226 C 400 188 550 142 700 96 C 850 62 920 48 970 42 L 970 270 L 60 270 Z" fill="url(#trajectoryGrad)" id="traj-fill"></path>
+<path d="M 60 265 C 150 258 220 248 310 226 C 400 188 550 142 700 96 C 850 62 920 48 970 42" fill="none" id="traj-line" stroke="#6c4cf1" stroke-dasharray="6 4" stroke-linecap="round" stroke-width="3"></path>
+<!-- Deficit Callout Pointer -->
+<g transform="translate(290, 160)">
+<circle cx="0" cy="45" fill="#ba1a1a" r="5"></circle>
+<circle class="animate-ping" cx="0" cy="45" fill="#ba1a1a" opacity="0.2" r="11"></circle>
+<rect fill="#ffffff" filter="drop-shadow(0 4px 10px rgba(0,0,0,0.08))" height="34" rx="8" width="130" x="-65" y="-5"></rect>
+<text class="text-[11px] font-sans" fill="#ba1a1a" font-weight="700" text-anchor="middle" x="0" y="12">2031 Home Downpay</text>
+<text class="text-[10px] font-sans" fill="#484555" font-weight="500" text-anchor="middle" x="0" y="24">Deficit -$24,500</text>
+</g>
+<!-- Milestone Interactive Nodes on Chart -->
+<!-- 2025 -->
+<circle class="transition-transform duration-200 hover:scale-150 cursor-pointer" cx="60" cy="265" fill="#006c4e" r="5.5"></circle>
+<!-- 2027 -->
+<circle class="transition-transform duration-200 hover:scale-150 cursor-pointer" cx="150" cy="255" fill="#006c4e" r="5.5"></circle>
+<!-- 2029 -->
+<circle class="transition-transform duration-200 hover:scale-150 cursor-pointer" cx="220" cy="238" fill="#006c4e" r="5.5"></circle>
+<!-- 2031 (Alert) -->
+<circle class="cursor-pointer" cx="310" cy="226" fill="#ba1a1a" r="6.5" stroke="#ffffff" stroke-width="2"></circle>
+<!-- 2038 -->
+<circle class="transition-transform duration-200 hover:scale-150 cursor-pointer" cx="550" cy="130" fill="#006c4e" r="5.5"></circle>
+<!-- 2052 -->
+<circle class="transition-transform duration-200 hover:scale-150 cursor-pointer" cx="920" cy="42" fill="#532cd8" r="7" stroke="#ffffff" stroke-width="2.5"></circle>
+<!-- X-Axis Labels -->
+<text class="text-[12px] font-semibold" fill="#484555" text-anchor="middle" x="60" y="295">2025</text>
+<text class="text-[11px]" fill="#797587" text-anchor="middle" x="150" y="295">2027</text>
+<text class="text-[11px]" fill="#797587" text-anchor="middle" x="220" y="295">2029</text>
+<text class="text-[11px] font-bold" fill="#ba1a1a" text-anchor="middle" x="310" y="295">2031</text>
+<text class="text-[11px]" fill="#797587" text-anchor="middle" x="550" y="295">2038</text>
+<text class="text-[11px]" fill="#797587" text-anchor="middle" x="750" y="295">2045</text>
+<text class="text-[12px] font-bold" fill="#532cd8" text-anchor="middle" x="920" y="295">2052 (Retire)</text>
+</svg>
+</div>
+</div>
+<!-- 3. Horizontal Scrollable Milestone Timeline (2025 to 2055) -->
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary">timeline</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Life Roadmap Milestones</h2>
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface-container-high px-2 py-0.5 rounded-full">Age 26 — 56</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="w-8 h-8 rounded-full bg-surface-container-lowest shadow-sm flex items-center justify-center text-on-surface hover:bg-surface-container transition-all" id="timeline-prev">
+<span class="material-symbols-outlined text-sm">chevron_left</span>
+</button>
+<button class="w-8 h-8 rounded-full bg-surface-container-lowest shadow-sm flex items-center justify-center text-on-surface hover:bg-surface-container transition-all" id="timeline-next">
+<span class="material-symbols-outlined text-sm">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Horizontal Scroll Track -->
+<div class="flex gap-space-md overflow-x-auto pb-4 pt-1 snap-x scroll-smooth no-scrollbar" id="timeline-scroll-container">
+<!-- Card 1: 2025 -->
+<div class="snap-start min-w-[280px] sm:min-w-[310px] bg-surface-container-lowest p-space-md rounded-3xl shadow-sm hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-headline-md text-headline-md text-primary">2025</span>
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-xs" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                On Track
+              </span>
+</div>
+<div class="w-10 h-10 rounded-2xl bg-secondary/10 text-secondary flex items-center justify-center mb-space-xs">
+<span class="material-symbols-outlined">shield_with_heart</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Emergency Reserve</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">6 months essential liquid buffer in high-yield vault.</p>
+</div>
+<div class="mt-space-md pt-space-sm bg-surface-container-low p-space-sm rounded-2xl">
+<div class="flex justify-between items-baseline mb-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Saved vs Goal</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">$25,000</span>
+</div>
+<div class="w-full bg-surface-container-highest rounded-full h-2 overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 100%;"></div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-semibold mt-1 inline-block">100% funded • Age 26</span>
+</div>
+</div>
+<!-- Card 2: 2027 -->
+<div class="snap-start min-w-[280px] sm:min-w-[310px] bg-surface-container-lowest p-space-md rounded-3xl shadow-sm hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-headline-md text-headline-md text-primary">2027</span>
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-xs" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                On Track
+              </span>
+</div>
+<div class="w-10 h-10 rounded-2xl bg-primary-fixed text-primary flex items-center justify-center mb-space-xs">
+<span class="material-symbols-outlined">school</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Master's Career Pivot</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Part-time AI / Design engineering graduate certificate.</p>
+</div>
+<div class="mt-space-md pt-space-sm bg-surface-container-low p-space-sm rounded-2xl">
+<div class="flex justify-between items-baseline mb-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Allocated</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">$32,000 <span class="font-label-sm text-label-sm text-on-surface-variant">/ $40k</span></span>
+</div>
+<div class="w-full bg-surface-container-highest rounded-full h-2 overflow-hidden">
+<div class="bg-primary-container h-full rounded-full" style="width: 80%;"></div>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-semibold mt-1 inline-block">80% funded • Age 28</span>
+</div>
+</div>
+<!-- Card 3: 2029 -->
+<div class="snap-start min-w-[280px] sm:min-w-[310px] bg-surface-container-lowest p-space-md rounded-3xl shadow-sm hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-headline-md text-headline-md text-primary">2029</span>
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-xs" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                On Track
+              </span>
+</div>
+<div class="w-10 h-10 rounded-2xl bg-tertiary-fixed text-tertiary flex items-center justify-center mb-space-xs">
+<span class="material-symbols-outlined">favorite</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Dream Wedding &amp; Trip</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Celebration in Amalfi Coast plus sabbatical month.</p>
+</div>
+<div class="mt-space-md pt-space-sm bg-surface-container-low p-space-sm rounded-2xl">
+<div class="flex justify-between items-baseline mb-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Allocated</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">$24,500 <span class="font-label-sm text-label-sm text-on-surface-variant">/ $35k</span></span>
+</div>
+<div class="w-full bg-surface-container-highest rounded-full h-2 overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 70%;"></div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-semibold mt-1 inline-block">70% funded • Age 30</span>
+</div>
+</div>
+<!-- Card 4: 2031 (GAP ALERT) -->
+<div class="snap-start min-w-[280px] sm:min-w-[320px] bg-surface-container-lowest p-space-md rounded-3xl shadow-md ring-2 ring-error/20 hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between relative overflow-hidden">
+<div class="absolute -right-4 -top-4 w-16 h-16 bg-error-container/40 rounded-full blur-xl pointer-events-none"></div>
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-headline-md text-headline-md text-error">2031</span>
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm animate-pulse">
+<span class="material-symbols-outlined text-xs">error</span>
+                Gap Alert: -$24.5k
+              </span>
+</div>
+<div class="w-10 h-10 rounded-2xl bg-error-container text-error flex items-center justify-center mb-space-xs">
+<span class="material-symbols-outlined">home</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">First Home Down Payment</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">20% down on urban property + closing &amp; reserve.</p>
+</div>
+<div class="mt-space-md pt-space-sm bg-error-container/20 p-space-sm rounded-2xl">
+<div class="flex justify-between items-baseline mb-1">
+<span class="font-label-sm text-label-sm text-on-error-container">Projected vs Target</span>
+<span class="font-headline-sm text-headline-sm text-error">$125,500 <span class="font-label-sm text-label-sm text-on-surface-variant">/ $150k</span></span>
+</div>
+<div class="w-full bg-surface-container-highest rounded-full h-2 overflow-hidden">
+<div class="bg-error h-full rounded-full" style="width: 83.6%;"></div>
+</div>
+<span class="font-label-sm text-label-sm text-error font-semibold mt-1 inline-block">83.6% projected • Shortage: $24,500</span>
+</div>
+</div>
+<!-- Card 5: 2038 -->
+<div class="snap-start min-w-[280px] sm:min-w-[310px] bg-surface-container-lowest p-space-md rounded-3xl shadow-sm hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-headline-md text-headline-md text-primary">2038</span>
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-xs">hourglass_empty</span>
+                Upcoming
+              </span>
+</div>
+<div class="w-10 h-10 rounded-2xl bg-secondary-fixed text-secondary flex items-center justify-center mb-space-xs">
+<span class="material-symbols-outlined">storefront</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Start Boutique Studio</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Founding capital &amp; 18 months runway for independent agency.</p>
+</div>
+<div class="mt-space-md pt-space-sm bg-surface-container-low p-space-sm rounded-2xl">
+<div class="flex justify-between items-baseline mb-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Allocated</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">$55,000 <span class="font-label-sm text-label-sm text-on-surface-variant">/ $120k</span></span>
+</div>
+<div class="w-full bg-surface-container-highest rounded-full h-2 overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 45%;"></div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-semibold mt-1 inline-block">45% funded • Age 39</span>
+</div>
+</div>
+<!-- Card 6: 2052 -->
+<div class="snap-start min-w-[280px] sm:min-w-[320px] bg-gradient-to-br from-surface-container-lowest to-primary-fixed/20 p-space-md rounded-3xl shadow-sm hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-headline-md text-headline-md text-primary-container">2052</span>
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-primary-container text-on-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-xs" style="font-variation-settings: 'FILL' 1;">stars</span>
+                North Star
+              </span>
+</div>
+<div class="w-10 h-10 rounded-2xl bg-primary text-on-primary flex items-center justify-center mb-space-xs">
+<span class="material-symbols-outlined">wb_sunny</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Financial Independence</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Full early retirement at age 53 with 4% safe withdrawal rule.</p>
+</div>
+<div class="mt-space-md pt-space-sm bg-surface-container-lowest/80 p-space-sm rounded-2xl">
+<div class="flex justify-between items-baseline mb-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Projected Portfolio</span>
+<span class="font-headline-sm text-headline-sm text-primary">$2,850,000</span>
+</div>
+<div class="w-full bg-surface-container-highest rounded-full h-2 overflow-hidden">
+<div class="bg-primary-container h-full rounded-full" style="width: 94%;"></div>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-semibold mt-1 inline-block">94% modeled certainty • Age 53</span>
+</div>
+</div>
+</div>
+</div>
+<!-- 4. Gap Analysis & AI Optimization Bento Cards -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-md">
+<!-- Left: Deficit Breakdown Card (7 Cols) -->
+<div class="lg:col-span-7 bg-surface-container-lowest p-space-lg rounded-3xl shadow-sm flex flex-col justify-between space-y-space-md">
+<div>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<div class="w-9 h-9 rounded-2xl bg-error-container text-error flex items-center justify-center">
+<span class="material-symbols-outlined">troubleshoot</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-error uppercase font-bold tracking-wider">Gap Diagnostics</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">2031 Home Down Payment Shortage</h3>
+</div>
+</div>
+<span class="font-currency-stat text-currency-stat text-error leading-none">-$24,500</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-sm">
+            At your current monthly velocity of <strong class="text-on-surface font-semibold">$3,550</strong>, you will reach <strong class="text-on-surface font-semibold">$125,500</strong> by July 2031 against your desired purchase target of <strong class="text-on-surface font-semibold">$150,000</strong>.
+          </p>
+</div>
+<!-- Solutions Bento Split Inside -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<!-- Option A -->
+<div class="bg-surface-container-low p-space-md rounded-2xl flex flex-col justify-between hover:bg-surface-container transition-all">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded-full bg-primary-fixed text-primary font-label-sm text-label-sm">Option A • Recommended</span>
+<span class="material-symbols-outlined text-primary text-sm">trending_up</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Boost Monthly Savings</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Increase monthly deposits by <strong>+$210/mo</strong> starting next month. Keeps your target completion in Q2 2031.
+              </p>
+</div>
+<button class="mt-space-md w-full py-2.5 px-space-md rounded-full bg-primary text-on-primary font-label-md text-label-md hover:bg-primary-container transition-all flex items-center justify-center gap-1 shadow-sm" id="apply-opt-a">
+<span>Apply to Roadmap</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+<!-- Option B -->
+<div class="bg-surface-container-low p-space-md rounded-2xl flex flex-col justify-between hover:bg-surface-container transition-all">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded-full bg-surface-container-highest text-on-surface-variant font-label-sm text-label-sm">Option B • Flexible</span>
+<span class="material-symbols-outlined text-on-surface-variant text-sm">calendar_month</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Extend Timeline (+7 mo)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Adjust purchase horizon from <strong>July 2031</strong> to <strong>February 2032</strong> without increasing current monthly budget.
+              </p>
+</div>
+<button class="mt-space-md w-full py-2.5 px-space-md rounded-full bg-surface-container-highest text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-all flex items-center justify-center gap-1" id="apply-opt-b">
+<span>Shift Target Date</span>
+<span class="material-symbols-outlined text-sm">done</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Right: AI Optimization Coach Card (5 Cols) -->
+<div class="lg:col-span-5 bg-gradient-to-b from-primary-fixed/30 to-surface-container-lowest p-space-lg rounded-3xl shadow-sm flex flex-col justify-between space-y-space-md">
+<div>
+<div class="flex items-center gap-space-xs mb-space-xs">
+<div class="w-8 h-8 rounded-full bg-primary-container text-on-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface">Lumo AI Smart Rec</span>
+</div>
+<!-- Conversation bubble -->
+<div class="bg-surface-container-lowest p-space-md rounded-2xl shadow-sm text-on-surface space-y-space-xs mt-space-sm">
+<div class="flex items-center gap-2">
+<span class="inline-block w-2 h-2 rounded-full bg-secondary"></span>
+<span class="font-label-md text-label-md text-secondary uppercase">Tax Efficiency Unlocked</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              "You currently have <strong>$7,200/year</strong> sitting in low-yield checking. Routing that directly into your Roth IRA and Treasury Index generates an incremental <strong class="text-on-surface font-semibold">+$18,340 compounding bonus</strong> before 2031, erasing 75% of your home down payment deficit effortlessly."
+            </p>
+</div>
+</div>
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between text-body-sm text-on-surface-variant px-1">
+<span>Automated Allocation Rebalance</span>
+<span class="text-secondary font-semibold">Ready</span>
+</div>
+<button class="w-full py-3 px-space-md rounded-full bg-primary-container text-on-primary font-headline-sm text-headline-sm hover:-translate-y-0.5 transition-all shadow-[0_4px_14px_rgba(108,76,241,0.35)] flex items-center justify-center gap-2" id="run-ai-rebalance">
+<span class="material-symbols-outlined">electric_bolt</span>
+<span>Execute 1-Tap AI Rebalance</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  (function() {
+    // Slider Elements
+    const savingsSlider = document.getElementById('savings-slider');
+    const growthSlider = document.getElementById('growth-slider');
+    const inflationSlider = document.getElementById('inflation-slider');
+    const returnSlider = document.getElementById('return-slider');
+
+    // Display values
+    const savingsVal = document.getElementById('savings-val');
+    const growthVal = document.getElementById('growth-val');
+    const inflationVal = document.getElementById('inflation-val');
+    const returnVal = document.getElementById('return-val');
+
+    // Chart Paths
+    const trajLine = document.getElementById('traj-line');
+    const trajFill = document.getElementById('traj-fill');
+
+    function updateSimulation() {
+      const savings = parseInt(savingsSlider.value, 10);
+      const growth = parseFloat(growthSlider.value);
+      const inflation = parseFloat(inflationSlider.value);
+      const returns = parseFloat(returnSlider.value);
+
+      savingsVal.innerHTML = `$${savings.toLocaleString()}<span class="text-xs font-normal text-on-surface-variant">/mo</span>`;
+      growthVal.innerHTML = `${growth.toFixed(1)}%<span class="text-xs font-normal text-on-surface-variant">/yr</span>`;
+      inflationVal.innerHTML = `${inflation.toFixed(1)}%<span class="text-xs font-normal text-on-surface-variant">/yr</span>`;
+      returnVal.innerHTML = `${returns.toFixed(1)}%<span class="text-xs font-normal text-on-surface-variant">/yr</span>`;
+
+      // Visual feedback: adapt curve based on variables
+      const factor = (savings / 3550) * (returns / 8.5) * (1 - (inflation - 3.2)*0.05);
+      const p1 = Math.max(160, Math.min(250, 226 - (factor - 1) * 35));
+      const p2 = Math.max(120, Math.min(210, 188 - (factor - 1) * 45));
+      const p3 = Math.max(80, Math.min(160, 142 - (factor - 1) * 60));
+      const p4 = Math.max(45, Math.min(110, 96 - (factor - 1) * 70));
+      const endY = Math.max(20, Math.min(80, 42 - (factor - 1) * 40));
+
+      const pathStr = `M 60 265 C 150 258 220 248 310 ${p1.toFixed(0)} C 400 ${p2.toFixed(0)} 550 ${p3.toFixed(0)} 700 ${p4.toFixed(0)} C 850 62 920 48 970 ${endY.toFixed(0)}`;
+      trajLine.setAttribute('d', pathStr);
+      trajFill.setAttribute('d', `${pathStr} L 970 270 L 60 270 Z`);
+    }
+
+    [savingsSlider, growthSlider, inflationSlider, returnSlider].forEach(slider => {
+      slider.addEventListener('input', updateSimulation);
+    });
+
+    document.getElementById('reset-sim-btn').addEventListener('click', () => {
+      savingsSlider.value = 3550;
+      growthSlider.value = 5.5;
+      inflationSlider.value = 3.2;
+      returnSlider.value = 8.5;
+      updateSimulation();
+    });
+
+    // Timeline scroll navigation
+    const container = document.getElementById('timeline-scroll-container');
+    document.getElementById('timeline-prev').addEventListener('click', () => {
+      container.scrollBy({ left: -320, behavior: 'smooth' });
+    });
+    document.getElementById('timeline-next').addEventListener('click', () => {
+      container.scrollBy({ left: 320, behavior: 'smooth' });
+    });
+
+    // Quick Apply Actions
+    document.getElementById('apply-opt-a').addEventListener('click', function() {
+      savingsSlider.value = 3760;
+      updateSimulation();
+      this.innerHTML = '<span class="material-symbols-outlined text-sm">check</span> Roadmap Updated!';
+      this.classList.remove('bg-primary');
+      this.classList.add('bg-secondary');
+      setTimeout(() => {
+        this.innerHTML = '<span>Applied (+$210/mo)</span>';
+      }, 1500);
+    });
+
+    document.getElementById('apply-opt-b').addEventListener('click', function() {
+      this.innerHTML = '<span class="material-symbols-outlined text-sm">check</span> Date Set to Feb 2032';
+      this.classList.add('bg-secondary-container', 'text-on-secondary-container');
+    });
+
+    document.getElementById('run-ai-rebalance').addEventListener('click', function() {
+      this.innerHTML = '<span class="material-symbols-outlined animate-spin text-sm">sync</span> Rebalancing Accounts...';
+      setTimeout(() => {
+        this.innerHTML = '<span class="material-symbols-outlined text-sm">done_all</span> Rebalanced (+$18,340 Projected)';
+        this.classList.remove('bg-primary-container');
+        this.classList.add('bg-secondary');
+      }, 1000);
+    });
+
+  })();
+</script></main></div></body></html>

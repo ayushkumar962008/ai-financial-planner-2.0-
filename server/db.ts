@@ -86,7 +86,19 @@ export interface DatabaseSchema {
   }>;
 }
 
-const DB_PATH = path.join(process.cwd(), 'server', 'data', 'lumo_database.json');
+function resolveDbPath(): string {
+  const candidates = [
+    path.join(process.cwd(), 'database', 'lumo_database.json'),
+    path.join(process.cwd(), '..', 'database', 'lumo_database.json'),
+    path.join(process.cwd(), 'server', 'data', 'lumo_database.json'),
+  ];
+  for (const candidate of candidates) {
+    if (fs.existsSync(candidate)) return candidate;
+  }
+  return path.join(process.cwd(), 'database', 'lumo_database.json');
+}
+
+const DB_PATH = resolveDbPath();
 
 const INITIAL_DATA: DatabaseSchema = {
   portfolio: {

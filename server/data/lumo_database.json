@@ -245,38 +245,6 @@
   ],
   "chatHistory": [
     {
-      "id": "usr-1792502566386",
-      "sender": "user",
-      "text": "i want to buy a bike cost 1 lakh ",
-      "timestamp": "06:52 pm"
-    },
-    {
-      "id": "ai-1792502566388",
-      "sender": "ai",
-      "text": "### Real-Time Financial Ledger Synthesis for \"i want to buy a bike cost 1 lakh \":\n\n• **Portfolio Snapshot**: Consolidated Net Worth of **$1,43,300** (+14.2% YoY).\n• **Cashflow Performance**: Saving **$3,550** of $8,200 monthly (43.3% savings rate, top 6% in disciplined surplus allocation).\n• **Milestones**: 5 goals on track, 1 attention needed (2031 Home Down Payment).\n• **Recommendation**: All core indicators are primed for wealth velocity. To stress-test alternative paths, navigate to the **Scenario Simulator** or adjust allocations in the **Goals Manager**.",
-      "timestamp": "06:52 pm",
-      "tags": [
-        "Lumo Quantitative Engine",
-        "Portfolio Telemetry"
-      ]
-    },
-    {
-      "id": "usr-1792502791699",
-      "sender": "user",
-      "text": "How do I configure my Lumo account and telemetry?",
-      "timestamp": "06:56 pm"
-    },
-    {
-      "id": "ai-1792502791700",
-      "sender": "ai",
-      "text": "### Real-Time Financial Ledger Synthesis for \"How do I configure my Lumo account and telemetry?\":\n\n• **Portfolio Snapshot**: Consolidated Net Worth of **$1,43,300** (+14.2% YoY).\n• **Cashflow Performance**: Saving **$3,550** of $8,200 monthly (43.3% savings rate, top 6% in disciplined surplus allocation).\n• **Milestones**: 5 goals on track, 1 attention needed (2031 Home Down Payment).\n• **Recommendation**: All core indicators are primed for wealth velocity. To stress-test alternative paths, navigate to the **Scenario Simulator** or adjust allocations in the **Goals Manager**.",
-      "timestamp": "06:56 pm",
-      "tags": [
-        "Lumo Quantitative Engine",
-        "Portfolio Telemetry"
-      ]
-    },
-    {
       "id": "usr-1792502823669",
       "sender": "user",
       "text": "open roadmap",
@@ -791,6 +759,66 @@
         {
           "label": "Emergency Fund",
           "value": "$23,000"
+        }
+      ]
+    },
+    {
+      "id": "usr-1792505256587",
+      "sender": "user",
+      "text": "hi ",
+      "timestamp": "07:37 pm"
+    },
+    {
+      "id": "ai-1792505256606",
+      "sender": "ai",
+      "text": "### Hello Maya! I am Lumo, your AI financial copilot.\n\nHere is your current financial summary:\n• Net Worth: $1,43,300 (+14.2% YoY growth)\n• Cashflow: Saving $3,550/mo (43.3% savings rate)\n• Liquid Buffer: $23,000 in 4.5% Emergency HYSA (5 months covered)\n• Immediate Action: $2,690 in checking is ready for surplus compounding.\n\nAsk me about your 2031 house down payment, major purchases, investments, or early retirement.",
+      "timestamp": "07:37 pm",
+      "tags": [
+        "Lumo Copilot",
+        "Overview"
+      ],
+      "metrics": [
+        {
+          "label": "Net Worth",
+          "value": "$1,43,300"
+        },
+        {
+          "label": "Savings Rate",
+          "value": "43.3%"
+        },
+        {
+          "label": "Emergency Fund",
+          "value": "$23,000"
+        }
+      ]
+    },
+    {
+      "id": "usr-1792505303524",
+      "sender": "user",
+      "text": "i want to buy a car worth 2 crore can you give the roadmap ",
+      "timestamp": "07:38 pm"
+    },
+    {
+      "id": "ai-1792505303525",
+      "sender": "ai",
+      "text": "### Affordability Assessment for Major Purchases:\n\n1. Cashflow Capacity: You generate $2,550/mo in investable surplus and hold $2,690 in checking buffer.\n2. Safe Purchase Limit: Cash purchases up to $4,500 are fully affordable today from your monthly surplus without touching your $23,000 emergency fund.\n3. Vehicle Financing: A $500–$650/mo car payment reduces your savings rate from 43.3% to ~36%, delaying your early retirement by ~14 months.\n4. Recommendation: If buying a car, cap monthly payments under $450/mo to preserve your 2031 Home Down Payment target.",
+      "timestamp": "07:38 pm",
+      "tags": [
+        "Affordability",
+        "Purchasing Capacity"
+      ],
+      "metrics": [
+        {
+          "label": "Monthly Surplus",
+          "value": "$2,550"
+        },
+        {
+          "label": "Safe Cash Limit",
+          "value": "$4,500"
+        },
+        {
+          "label": "Max Car Payment",
+          "value": "<$450/mo"
         }
       ]
     }

@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Manrope:wght@600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"secondary-fixed":"#e8deff","secondary-fixed-dim":"#cdbdff","error":"#ba1a1a","on-tertiary-container":"#fffffc","primary-fixed":"#dbe1ff","on-surface":"#111c2d","secondary":"#6646c5","tertiary-fixed-dim":"#78d9aa","primary-fixed-dim":"#b3c5ff","primary":"#0052d6","surface-container-lowest":"#ffffff","on-tertiary-fixed":"#002113","inverse-surface":"#273143","on-secondary-fixed-variant":"#4e2aac","surface-bright":"#f9f9ff","surface":"#f9f9ff","inverse-primary":"#b3c5ff","on-tertiary":"#ffffff","on-primary-container":"#fffeff","outline":"#737687","tertiary":"#006b48","inverse-on-surface":"#ecf0ff","on-error":"#ffffff","on-secondary-container":"#32008a","on-surface-variant":"#424655","on-secondary":"#ffffff","on-primary-fixed":"#00174a","surface-container-low":"#f0f3ff","outline-variant":"#c2c6d8","surface-container-highest":"#d9e3fb","on-background":"#111c2d","on-tertiary-fixed-variant":"#005236","surface-container":"#e8eeff","secondary-container":"#9c7eff","tertiary-fixed":"#94f6c4","on-primary":"#ffffff","primary-container":"#246bfd","on-error-container":"#93000a","surface-variant":"#d9e3fb","on-primary-fixed-variant":"#003ea6","surface-dim":"#d0daf2","background":"#f9f9ff","error-container":"#ffdad6","tertiary-container":"#1a865d","on-secondary-fixed":"#20005f","surface-tint":"#0054d8","surface-container-high":"#dfe8ff"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-xl":"2.5rem","margin-mobile":"1rem","space-lg":"1.5rem","space-xs":"0.25rem","margin":"2rem","gutter-mobile":"1rem","space-md":"1rem","space-sm":"0.5rem","gutter":"1.5rem"},"fontFamily":{"display-md":["Manrope"],"headline-lg":["Manrope"],"headline-sm":["Manrope"],"display-lg-mobile":["Manrope"],"display-md-mobile":["Manrope"],"body-md":["Inter"],"display-lg":["Manrope"],"metric-lg":["Manrope"],"label-md":["Inter"],"label-sm":["Inter"],"metric-xl":["Manrope"],"body-sm":["Inter"],"headline-md":["Manrope"],"body-lg":["Inter"],"caption":["Inter"]},"fontSize":{"display-md":["36px",{"lineHeight":"44px","letterSpacing":"-0.025em","fontWeight":"700"}],"headline-lg":["24px",{"lineHeight":"32px","letterSpacing":"-0.015em","fontWeight":"600"}],"headline-sm":["16px",{"lineHeight":"24px","letterSpacing":"-0.005em","fontWeight":"600"}],"display-lg-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.025em","fontWeight":"700"}],"display-md-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.02em","fontWeight":"700"}],"body-md":["14px",{"lineHeight":"20px","letterSpacing":"0em","fontWeight":"400"}],"display-lg":["48px",{"lineHeight":"56px","letterSpacing":"-0.03em","fontWeight":"700"}],"metric-lg":["28px",{"lineHeight":"36px","letterSpacing":"-0.015em","fontWeight":"600"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"600"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.03em","fontWeight":"500"}],"metric-xl":["40px",{"lineHeight":"48px","letterSpacing":"-0.02em","fontWeight":"600"}],"body-sm":["13px",{"lineHeight":"18px","letterSpacing":"0em","fontWeight":"400"}],"headline-md":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"24px","letterSpacing":"-0.005em","fontWeight":"400"}],"caption":["10px",{"lineHeight":"12px","letterSpacing":"0.04em","fontWeight":"500"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-surface-container-lowest/95 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-28 w-full px-margin flex flex-col justify-between"><div class="h-16 flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md"><img alt="LifePath Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1U77a-PxQqM6Yop2GcR1W11GMRWT6pd41vebxQsxTpSbKevY2K06CRZMrHGaSwDyVRw9pYV_pF1H6WSLztqguSZLcdu1gYAZ_cNvjXZxDPkhDbBDxp9MXS-Xu1AA35yi0bqRoafm-J5RSqlo2VlQ0iXPWpNLFAIz84TT6woriZwFVZfhYgXgegIdSWDlxpwzN21T_amKuRFyDMFCYZJbnKy3-61LpIXWyjHCo9pSXmaaWBqzvuc7hgceHI"/><div class="flex items-center gap-space-xs"><span class="font-headline-md text-headline-md text-on-surface tracking-tight font-bold">LifePath</span><span class="bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm px-space-sm py-0.5 rounded-full uppercase tracking-wider font-semibold">AI Planner</span></div></div><nav class="hidden xl:flex items-center gap-space-xs bg-surface-container-low p-1 rounded-xl" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-lg shadow-sm"><a aria-current="page" class="px-space-md py-1.5 transition-all bg-primary-container text-on-primary-container font-semibold rounded-lg shadow-sm" data-path="overview" href="#">Overview</a><a class="px-space-md py-1.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="finances" href="#">My Finances</a><a class="px-space-md py-1.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="goals" href="#">Financial Goals</a><a class="px-space-md py-1.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="roadmap" href="#">Life Roadmap</a><a class="px-space-md py-1.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="simulator" href="#">Future Simulator</a><a class="px-space-md py-1.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="investments" href="#">Investments</a><a class="px-space-md py-1.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="advisor" href="#">AI Advisor</a></nav><div class="flex items-center gap-space-md"><div class="hidden lg:flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span><span>Demo: Alex</span></div><div class="flex items-center bg-surface-container-low p-0.5 rounded-lg font-label-sm text-label-sm"><button class="px-2 py-1 rounded bg-surface-container-lowest text-on-surface shadow-sm font-semibold" type="button">₹ INR</button><button class="px-2 py-1 rounded text-on-surface-variant hover:text-on-surface" type="button">$ USD</button></div><button aria-label="Search" class="w-9 h-9 rounded-lg flex items-center justify-center text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-lg">search</span></button><div class="relative"><button aria-label="Notifications" class="w-9 h-9 rounded-lg flex items-center justify-center text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-lg">notifications</span></button><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-primary ring-2 ring-surface-container-lowest"></span></div><div class="flex items-center gap-space-sm pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCljhfiASkfe9y-hOyRmD5c1mQ_q9GOSIKNvU6qB96CA6Fpk8-Q6P5XwucjUUwjbMOLejqXEnP9V9KJ9Nmj8wFoo5YcEDkRypS-j-vx88WDVei3-o4NBQTZThy0HBHwQnrJshqyAkEaWPOmitsdoJ9MtpvAvwrXkQlbgvrwsQMRocB2Sy4g-qdESTM0W7lr6ao1K-twtkhyzliOU5vQhgs4r184Z3nebF-I9_zWARjMmBL2VGlhHNeH"/><div class="hidden md:flex flex-col text-left"><span class="font-label-md text-label-md text-on-surface font-semibold leading-none">Alex Sharma</span><span class="font-caption text-caption text-on-surface-variant leading-none mt-1">Pro Tier</span></div><span class="material-symbols-outlined text-sm text-on-surface-variant hidden md:block">expand_more</span></div></div></div><div class="h-12 flex items-center justify-between gap-gutter bg-surface-container-low/60 rounded-xl px-space-md mb-2"><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-xs"><span class="font-caption text-caption text-on-surface-variant uppercase tracking-wider font-semibold">Net Worth</span><span class="font-headline-sm text-headline-sm text-on-surface font-bold">₹84,25,000</span></div><span class="w-1 h-1 rounded-full bg-outline-variant"></span><div class="flex items-center gap-space-xs font-label-sm text-label-sm text-tertiary font-semibold"><span class="material-symbols-outlined text-sm">trending_up</span><span>+41.25% Monthly Savings Rate</span></div></div><div class="flex items-center gap-space-sm"><span class="font-label-sm text-label-sm text-on-surface-variant hidden sm:inline">Macro Forecast: 2024-2050 Healthy</span><button class="flex items-center gap-space-xs px-space-md py-1.5 rounded-lg bg-secondary text-on-secondary font-label-md text-label-md font-semibold hover:bg-on-secondary-container transition-all shadow-[0_0_0_1px_rgba(118,87,214,0.15),0_4px_16px_-2px_rgba(118,87,214,0.3)]" type="button"><span class="material-symbols-outlined text-base">auto_awesome</span><span>Ask AI Advisor</span></button></div></div></div></header><main class="w-full pt-28 bg-surface"><div class="flex flex-col w-full">
+<!-- Top Command & Perspective Bar -->
+<section class="w-full px-margin py-space-lg flex flex-col xl:flex-row xl:items-center justify-between gap-space-md">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-space-sm">
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Good morning, Alex</h1>
+<span class="text-xl">👋</span>
+<span class="bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm px-2.5 py-0.5 rounded-full font-semibold">Tier: Wealth Prime</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">Here is how your financial life, cashflow dynamics, and life goals are progressing today.</p>
+</div>
+<!-- Controls Cluster -->
+<div class="flex flex-wrap items-center gap-space-sm">
+<!-- Horizon Segmented Switcher -->
+<div class="bg-surface-container-low p-1 rounded-xl flex items-center shadow-sm">
+<button class="horizon-tab px-space-md py-1.5 rounded-lg font-label-md text-label-md font-semibold bg-surface-container-lowest text-on-surface shadow-sm transition-all" data-horizon="2025" type="button">
+          Current Year (2025)
+        </button>
+<button class="horizon-tab px-space-md py-1.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all" data-horizon="5yr" type="button">
+          5-Year Plan
+        </button>
+<button class="horizon-tab px-space-md py-1.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all" data-horizon="2055" type="button">
+          Retirement (2055)
+        </button>
+</div>
+<!-- Visibility Toggle -->
+<button class="h-10 px-space-md rounded-lg bg-surface-container-lowest hover:bg-surface-container-low text-on-surface flex items-center gap-2 shadow-sm transition-all" id="toggle-privacy-btn" title="Toggle Private Numerical Balances" type="button">
+<span class="material-symbols-outlined text-lg" id="privacy-icon">visibility</span>
+<span class="font-label-md text-label-md" id="privacy-label">Hide Balances</span>
+</button>
+<!-- Ledger / Balance Refresh Action -->
+<button class="h-10 px-space-md rounded-lg bg-primary text-on-primary font-label-md text-label-md font-semibold flex items-center gap-space-xs shadow-sm hover:bg-on-primary-fixed-variant transition-all" id="update-finances-btn" type="button">
+<span class="material-symbols-outlined text-base">sync_alt</span>
+<span>Update Finances</span>
+</button>
+</div>
+</section>
+<!-- 5 Primary Core KPI Cards -->
+<section class="w-full px-margin pb-space-lg">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-space-md">
+<!-- Card 1: Net Worth -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow relative overflow-hidden group">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-md text-label-md text-on-surface-variant font-medium uppercase tracking-wider">Net Worth</span>
+<span class="w-8 h-8 rounded-lg bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-base">account_balance</span>
+</span>
+</div>
+<div>
+<div class="flex items-baseline gap-2">
+<span class="font-metric-lg text-metric-lg font-bold text-on-surface tabular-nums tracking-tight sensitive-data">₹32,00,000</span>
+</div>
+<div class="flex items-center gap-1.5 mt-2">
+<span class="inline-flex items-center gap-0.5 px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-xs">trending_up</span>+14.2% YoY
+            </span>
+<span class="font-caption text-caption text-on-surface-variant">Assets ₹38.5L - Liab. ₹6.5L</span>
+</div>
+</div>
+</div>
+<!-- Card 2: Take-Home Monthly Income -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow group">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-md text-label-md text-on-surface-variant font-medium uppercase tracking-wider">Monthly Take-Home</span>
+<span class="w-8 h-8 rounded-lg bg-surface-container-low flex items-center justify-center text-on-surface">
+<span class="material-symbols-outlined text-base">payments</span>
+</span>
+</div>
+<div>
+<span class="font-metric-lg text-metric-lg font-bold text-on-surface tabular-nums tracking-tight sensitive-data">₹80,000</span>
+<div class="flex items-center gap-1.5 mt-2">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold bg-surface-container-low px-2 py-0.5 rounded-md">2 Streams</span>
+<span class="font-caption text-caption text-on-surface-variant">Salary ₹72k + Retainer ₹8k</span>
+</div>
+</div>
+</div>
+<!-- Card 3: Monthly Expenses -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow group">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-md text-label-md text-on-surface-variant font-medium uppercase tracking-wider">Monthly Outflow</span>
+<span class="w-8 h-8 rounded-lg bg-surface-container-low flex items-center justify-center text-on-surface">
+<span class="material-symbols-outlined text-base">shopping_bag</span>
+</span>
+</div>
+<div>
+<span class="font-metric-lg text-metric-lg font-bold text-on-surface tabular-nums tracking-tight sensitive-data">₹42,000</span>
+<div class="flex items-center gap-1.5 mt-2">
+<span class="inline-flex items-center gap-0.5 px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-xs">arrow_downward</span>-₹3,200
+            </span>
+<span class="font-caption text-caption text-on-surface-variant">52.5% of net income</span>
+</div>
+</div>
+</div>
+<!-- Card 4: Investable Surplus -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow group">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-md text-label-md text-on-surface-variant font-medium uppercase tracking-wider">Investable Surplus</span>
+<span class="w-8 h-8 rounded-lg bg-secondary-fixed flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-base">savings</span>
+</span>
+</div>
+<div>
+<span class="font-metric-lg text-metric-lg font-bold text-on-surface tabular-nums tracking-tight sensitive-data">₹33,000</span>
+<div class="flex items-center gap-1.5 mt-2">
+<span class="inline-flex items-center gap-0.5 px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm font-semibold">
+              41.25% Rate
+            </span>
+<span class="font-caption text-caption text-on-surface-variant">High surplus capacity</span>
+</div>
+</div>
+</div>
+<!-- Card 5: Financial Health Score -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow group relative">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-md text-label-md text-on-surface-variant font-medium uppercase tracking-wider">Health Score</span>
+<div class="relative group/score">
+<span class="material-symbols-outlined text-lg text-on-surface-variant cursor-help">info</span>
+<!-- Popover tooltip -->
+<div class="absolute right-0 top-6 hidden group-hover/score:flex flex-col w-56 p-3 bg-inverse-surface text-inverse-on-surface rounded-lg shadow-xl text-caption font-caption z-30">
+<span class="font-bold mb-1">Score Breakdown (84/100):</span>
+<span>• Liquidity Cushion: 4.8 mo (Good)</span>
+<span>• Debt-to-Income: 6.25% (Prime)</span>
+<span>• Goals Momentum: 75% on track</span>
+</div>
+</div>
+</div>
+<div class="flex items-baseline justify-between">
+<div class="flex items-baseline gap-1">
+<span class="font-metric-lg text-metric-lg font-bold text-tertiary tabular-nums">84</span>
+<span class="font-label-md text-label-md text-on-surface-variant">/100</span>
+</div>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-bold">Robust</span>
+</div>
+<!-- Progress mini gauge -->
+<div class="w-full bg-surface-container h-1.5 rounded-full mt-3 overflow-hidden">
+<div class="bg-tertiary h-full rounded-full transition-all duration-700" style="width: 84%"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- AI Prescriptive Insight Banner -->
+<section class="w-full px-margin pb-space-lg">
+<div class="w-full p-space-lg rounded-xl bg-gradient-to-r from-secondary-fixed/40 via-surface-container-lowest to-surface-container-low shadow-sm flex flex-col lg:flex-row lg:items-center justify-between gap-space-md relative overflow-hidden" id="ai-insight-banner">
+<!-- Glow ambient backdrop -->
+<div class="absolute -right-20 -top-20 w-72 h-72 rounded-full bg-secondary-fixed-dim/30 blur-3xl pointer-events-none"></div>
+<div class="flex items-start gap-space-md relative z-10">
+<div class="w-12 h-12 rounded-xl bg-secondary text-on-secondary flex items-center justify-center shrink-0 shadow-md">
+<span class="material-symbols-outlined text-2xl">auto_awesome</span>
+</div>
+<div class="flex flex-col gap-1 max-w-3xl">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded uppercase tracking-wider bg-secondary text-on-secondary font-bold">Optimization Identified</span>
+<span class="font-caption text-caption text-on-surface-variant">Computed by LifePath Algorithmic Core • 12m horizon</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold">Accelerate Home Down Payment by 14 Months</h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            You maintain an unallocated surplus of <span class="font-semibold text-on-surface sensitive-data">₹33,000/mo</span>. Re-routing an additional <span class="font-bold text-secondary sensitive-data">₹4,500/mo</span> into your indexed equity SIP allows your 2033 Bangalore apartment goal to complete in <span class="font-bold text-on-surface">6.8 years</span> instead of 8 years.
+          </p>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-space-sm shrink-0 relative z-10 self-start lg:self-center">
+<button class="px-space-md py-2 rounded-lg bg-secondary text-on-secondary font-label-md text-label-md font-semibold hover:bg-on-secondary-container transition-all shadow-sm flex items-center gap-1.5" type="button">
+<span class="material-symbols-outlined text-base">tune</span>
+<span>Simulate Change</span>
+</button>
+<button class="px-space-md py-2 rounded-lg bg-surface-container-lowest text-on-surface hover:bg-surface-container transition-all font-label-md text-label-md font-medium shadow-sm" type="button">
+          Ask Advisor Details
+        </button>
+<button class="w-9 h-9 rounded-lg hover:bg-surface-container flex items-center justify-center text-on-surface-variant transition-colors" id="dismiss-insight-btn" title="Dismiss Insight" type="button">
+<span class="material-symbols-outlined text-base">close</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Visualizations Row: Interactive Net Worth Trajectory & Cashflow Architecture -->
+<section class="w-full px-margin pb-space-lg">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<!-- Left 7 Cols: Wealth & Asset Growth Chart -->
+<div class="lg:col-span-7 bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm mb-space-md">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold">12-Month Net Worth &amp; Asset Trajectory</h2>
+<p class="font-caption text-caption text-on-surface-variant">Aggregate portfolio appreciation vs remaining liability paydown</p>
+</div>
+<!-- Horizon Filters -->
+<div class="flex items-center gap-1 bg-surface-container-low p-1 rounded-lg">
+<button class="chart-tab px-2.5 py-1 rounded-md font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface" data-range="3m" type="button">3M</button>
+<button class="chart-tab px-2.5 py-1 rounded-md font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface" data-range="6m" type="button">6M</button>
+<button class="chart-tab px-2.5 py-1 rounded-md font-label-sm text-label-sm font-semibold bg-surface-container-lowest text-on-surface shadow-sm" data-range="1y" type="button">1Y</button>
+<button class="chart-tab px-2.5 py-1 rounded-md font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface" data-range="all" type="button">Max</button>
+</div>
+</div>
+<!-- High Fidelity Interactive SVG Chart -->
+<div class="relative w-full h-64 my-2">
+<svg class="w-full h-full overflow-visible" preserveaspectratio="none" viewbox="0 0 640 220">
+<defs>
+<lineargradient id="wealthGradient" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="#0052d6" stop-opacity="0.28"></stop>
+<stop offset="100%" stop-color="#0052d6" stop-opacity="0.0"></stop>
+</lineargradient>
+<lineargradient id="assetLineGradient" x1="0" x2="1" y1="0" y2="0">
+<stop offset="0%" stop-color="#246bfd"></stop>
+<stop offset="100%" stop-color="#006b48"></stop>
+</lineargradient>
+</defs>
+<!-- Gridlines -->
+<line stroke="#d9e3fb" stroke-dasharray="3 3" stroke-width="1" x1="0" x2="640" y1="30" y2="30"></line>
+<line stroke="#d9e3fb" stroke-dasharray="3 3" stroke-width="1" x1="0" x2="640" y1="85" y2="85"></line>
+<line stroke="#d9e3fb" stroke-dasharray="3 3" stroke-width="1" x1="0" x2="640" y1="140" y2="140"></line>
+<line stroke="#d9e3fb" stroke-width="1" x1="0" x2="640" y1="195" y2="195"></line>
+<!-- Net Worth Area & Line -->
+<!-- Path points: (0,180) -> (70,172) -> (140,165) -> (210,158) -> (280,140) -> (350,132) -> (420,118) -> (490,98) -> (560,78) -> (640,48) -->
+<polygon fill="url(#wealthGradient)" points="0,180 70,172 140,165 210,158 280,140 350,132 420,118 490,98 560,78 640,48 640,195 0,195"></polygon>
+<path d="M0,180 Q70,172 140,165 T280,140 T420,118 T560,78 T640,48" fill="none" stroke="url(#assetLineGradient)" stroke-linecap="round" stroke-width="3"></path>
+<!-- Liability baseline descending trajectory -->
+<path d="M0,130 L160,135 L320,142 L480,150 L640,160" fill="none" opacity="0.6" stroke="#ba1a1a" stroke-dasharray="4 4" stroke-width="2"></path>
+<!-- Interactive Anchor Point at current node -->
+<circle class="animate-pulse" cx="640" cy="48" fill="#0052d6" r="6"></circle>
+<circle cx="640" cy="48" fill="#ffffff" r="3"></circle>
+</svg>
+<!-- Floating Tooltip near final point -->
+<div class="absolute right-4 top-4 bg-inverse-surface text-inverse-on-surface px-3 py-1.5 rounded-lg shadow-lg font-caption text-caption">
+<span class="block font-semibold">Dec 2025: ₹32,00,000</span>
+<span class="text-tertiary-fixed-dim">+₹4.2L added this year</span>
+</div>
+</div>
+<!-- Chart Timeline & Legend -->
+<div class="flex items-center justify-between text-on-surface-variant font-caption text-caption pt-space-xs">
+<span>Jan 2025</span>
+<span>Apr 2025</span>
+<span>Jul 2025</span>
+<span>Oct 2025</span>
+<span class="font-semibold text-on-surface">Dec 2025 (Current)</span>
+</div>
+<div class="flex flex-wrap items-center gap-space-md pt-space-md mt-space-md bg-surface-container-low/40 rounded-lg p-space-sm">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-primary"></span>
+<span class="font-label-sm text-label-sm text-on-surface">Net Worth (₹32.0L)</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-tertiary"></span>
+<span class="font-label-sm text-label-sm text-on-surface">Total Assets (₹38.5L)</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-3 h-1 bg-error rounded"></span>
+<span class="font-label-sm text-label-sm text-on-surface">Liabilities (₹6.5L amortizing)</span>
+</div>
+</div>
+</div>
+<!-- Right 5 Cols: Cashflow Architecture Waterfall -->
+<div class="lg:col-span-5 bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-1">
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold">Monthly Cash Flow Mechanics</h2>
+<span class="font-label-sm text-label-sm text-tertiary font-semibold">Positive Runway</span>
+</div>
+<p class="font-caption text-caption text-on-surface-variant mb-space-md">Distribution of monthly net salary &amp; freelance intake</p>
+<!-- Top Level Bar Composition -->
+<div class="w-full h-4 rounded-full flex overflow-hidden shadow-inner mb-space-md bg-surface-container">
+<div class="bg-primary h-full transition-all" style="width: 35%;" title="Essential Needs ₹28,000"></div>
+<div class="bg-secondary h-full transition-all" style="width: 17.5%;" title="Discretionary Living ₹14,000"></div>
+<div class="bg-error h-full transition-all" style="width: 6.25%;" title="Debt Repayment ₹5,000"></div>
+<div class="bg-tertiary h-full transition-all" style="width: 41.25%;" title="Investable Surplus ₹33,000"></div>
+</div>
+<!-- Breakdown Ledger Elements -->
+<div class="flex flex-col gap-2.5">
+<!-- Item 1 -->
+<div class="flex items-center justify-between p-2.5 rounded-lg bg-surface-container-low/50">
+<div class="flex items-center gap-2.5">
+<span class="w-3 h-3 rounded-sm bg-primary shrink-0"></span>
+<div>
+<span class="font-label-md text-label-md font-semibold text-on-surface block">Essential Living (35%)</span>
+<span class="font-caption text-caption text-on-surface-variant">Rent ₹18k, Groceries ₹6k, Utilities ₹4k</span>
+</div>
+</div>
+<span class="font-label-md text-label-md font-bold text-on-surface sensitive-data">₹28,000</span>
+</div>
+<!-- Item 2 -->
+<div class="flex items-center justify-between p-2.5 rounded-lg bg-surface-container-low/50">
+<div class="flex items-center gap-2.5">
+<span class="w-3 h-3 rounded-sm bg-secondary shrink-0"></span>
+<div>
+<span class="font-label-md text-label-md font-semibold text-on-surface block">Discretionary / Lifestyle (17.5%)</span>
+<span class="font-caption text-caption text-on-surface-variant">Dining, subscriptions, leisure travel</span>
+</div>
+</div>
+<span class="font-label-md text-label-md font-bold text-on-surface sensitive-data">₹14,000</span>
+</div>
+<!-- Item 3 -->
+<div class="flex items-center justify-between p-2.5 rounded-lg bg-surface-container-low/50">
+<div class="flex items-center gap-2.5">
+<span class="w-3 h-3 rounded-sm bg-error shrink-0"></span>
+<div>
+<span class="font-label-md text-label-md font-semibold text-on-surface block">Debt Service (6.25%)</span>
+<span class="font-caption text-caption text-on-surface-variant">Vehicle loan EMI (Car ending in 2026)</span>
+</div>
+</div>
+<span class="font-label-md text-label-md font-bold text-on-surface sensitive-data">₹5,000</span>
+</div>
+<!-- Item 4 -->
+<div class="flex items-center justify-between p-2.5 rounded-lg bg-tertiary-fixed/30">
+<div class="flex items-center gap-2.5">
+<span class="w-3 h-3 rounded-sm bg-tertiary shrink-0"></span>
+<div>
+<span class="font-label-md text-label-md font-semibold text-tertiary block">Free Investable Surplus (41.25%)</span>
+<span class="font-caption text-caption text-on-surface-variant">SIPs, PPF, emergency buffer build</span>
+</div>
+</div>
+<span class="font-label-md text-label-md font-bold text-tertiary sensitive-data">₹33,000</span>
+</div>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-on-surface-variant font-caption text-caption">
+<span>Income Base: <strong class="text-on-surface sensitive-data">₹80,000</strong></span>
+<a class="text-primary font-semibold hover:underline flex items-center gap-0.5" href="#">
+<span>Adjust Monthly Budget</span>
+<span class="material-symbols-outlined text-xs">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Asset Allocation & Balance Sheet Modular Split -->
+<section class="w-full px-margin pb-space-lg">
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm mb-space-md">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold">Total Portfolio &amp; Liability Matrix</h2>
+<p class="font-caption text-caption text-on-surface-variant">Granular breakdown across liquid reserves, retirement instruments, equity and loans</p>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Liquid Cushion:</span>
+<span class="px-2.5 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-bold text-label-sm">4.8 Months Runway</span>
+</div>
+</div>
+<!-- Asset Pill Matrix -->
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-space-md mb-space-lg">
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col">
+<span class="font-caption text-caption text-on-surface-variant font-medium">Liquid Savings</span>
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface mt-1 sensitive-data">₹2,00,000</span>
+<span class="font-caption text-caption text-tertiary mt-0.5">Instant Access • 5.2%</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col">
+<span class="font-caption text-caption text-on-surface-variant font-medium">Mutual Funds (SIP)</span>
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface mt-1 sensitive-data">₹14,20,000</span>
+<span class="font-caption text-caption text-primary mt-0.5">Active Large &amp; Mid Cap</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col">
+<span class="font-caption text-caption text-on-surface-variant font-medium">EPF &amp; PPF (Guaranteed)</span>
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface mt-1 sensitive-data">₹11,30,000</span>
+<span class="font-caption text-caption text-on-surface-variant mt-0.5">8.15% Statutory Return</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col">
+<span class="font-caption text-caption text-on-surface-variant font-medium">Direct Equities</span>
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface mt-1 sensitive-data">₹6,00,000</span>
+<span class="font-caption text-caption text-primary mt-0.5">14 Bluechip holdings</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col">
+<span class="font-caption text-caption text-on-surface-variant font-medium">Sovereign Gold Bonds</span>
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface mt-1 sensitive-data">₹5,00,000</span>
+<span class="font-caption text-caption text-on-surface-variant mt-0.5">2.5% Annual coupon</span>
+</div>
+</div>
+<!-- Liability Banner Sub-row -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between p-space-md rounded-lg bg-surface-container-low/60 gap-space-sm">
+<div class="flex items-center gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-error-container text-on-error-container flex items-center justify-center font-bold">
+<span class="material-symbols-outlined text-xl">credit_card_off</span>
+</div>
+<div>
+<span class="font-label-md text-label-md font-bold text-on-surface">Liabilities Balance: <span class="sensitive-data">₹6,50,000</span></span>
+<p class="font-caption text-caption text-on-surface-variant">Car Loan remaining: ₹2,10,000 (8.4%) • Education Loan: ₹4,40,000 (7.1%)</p>
+</div>
+</div>
+<button class="px-space-md py-1.5 rounded-lg bg-surface-container-lowest text-on-surface font-label-md text-label-md font-semibold hover:bg-surface-container shadow-sm transition-all self-start sm:self-center" type="button">
+          Simulate Prepayment
+        </button>
+</div>
+</div>
+</section>
+<!-- Active Financial Goals Quick-Track -->
+<section class="w-full px-margin pb-space-xl">
+<div class="flex items-center justify-between mb-space-md">
+<div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold tracking-tight">Active Financial Milestones</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Continuous tracking against multi-year target completion curves</p>
+</div>
+<button class="flex items-center gap-1.5 text-primary font-label-md text-label-md font-semibold hover:underline" type="button">
+<span class="material-symbols-outlined text-base">add_circle</span>
+<span>Add Milestone</span>
+</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Goal Card 1: Home Down Payment -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-start justify-between mb-2">
+<div class="w-10 h-10 rounded-lg bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-xl">home</span>
+</div>
+<span class="px-2.5 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-semibold flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>On Track
+            </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Home Down Payment</h3>
+<p class="font-caption text-caption text-on-surface-variant">Bangalore 3BHK • Target 2033 (8 yrs)</p>
+<div class="mt-4">
+<div class="flex justify-between items-baseline mb-1">
+<span class="font-label-md text-label-md font-bold text-on-surface sensitive-data">₹4,20,000</span>
+<span class="font-caption text-caption text-on-surface-variant">of ₹18.5L (23%)</span>
+</div>
+<div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">
+<div class="bg-primary h-full rounded-full transition-all" style="width: 23%"></div>
+</div>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between font-caption text-caption text-on-surface-variant">
+<span>Monthly: <strong class="text-on-surface sensitive-data">₹16,000</strong></span>
+<span class="text-tertiary font-semibold">100% pacing</span>
+</div>
+</div>
+<!-- Goal Card 2: Emergency Buffer -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-start justify-between mb-2">
+<div class="w-10 h-10 rounded-lg bg-tertiary-fixed flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-xl">security</span>
+</div>
+<span class="px-2.5 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-semibold flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>Near Complete
+            </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Emergency Buffer</h3>
+<p class="font-caption text-caption text-on-surface-variant">6-Month Essential Expense Reserve</p>
+<div class="mt-4">
+<div class="flex justify-between items-baseline mb-1">
+<span class="font-label-md text-label-md font-bold text-on-surface sensitive-data">₹2,00,000</span>
+<span class="font-caption text-caption text-on-surface-variant">of ₹2.5L (80%)</span>
+</div>
+<div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">
+<div class="bg-tertiary h-full rounded-full transition-all" style="width: 80%"></div>
+</div>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between font-caption text-caption text-on-surface-variant">
+<span>Gap: <strong class="text-on-surface sensitive-data">₹50,000</strong></span>
+<span class="text-on-surface font-semibold">Est. Q2 2025</span>
+</div>
+</div>
+<!-- Goal Card 3: Higher Ed / Upskilling -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-start justify-between mb-2">
+<div class="w-10 h-10 rounded-lg bg-error-container text-on-error-container flex items-center justify-center">
+<span class="material-symbols-outlined text-xl">school</span>
+</div>
+<span class="px-2.5 py-0.5 rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm font-semibold flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-error"></span>Needs Attention
+            </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Upskilling / Exec Program</h3>
+<p class="font-caption text-caption text-on-surface-variant">Target Mid 2026</p>
+<div class="mt-4">
+<div class="flex justify-between items-baseline mb-1">
+<span class="font-label-md text-label-md font-bold text-on-surface sensitive-data">₹1,80,000</span>
+<span class="font-caption text-caption text-on-surface-variant">of ₹5.0L (36%)</span>
+</div>
+<div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">
+<div class="bg-error h-full rounded-full transition-all" style="width: 36%"></div>
+</div>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between font-caption text-caption text-on-surface-variant">
+<span>Lag: <strong class="text-error sensitive-data">-₹2,500/mo</strong></span>
+<button class="text-primary font-semibold hover:underline" type="button">Rebalance</button>
+</div>
+</div>
+<!-- Goal Card 4: Retirement Corpus -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-start justify-between mb-2">
+<div class="w-10 h-10 rounded-lg bg-secondary-fixed flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-xl">vital_signs</span>
+</div>
+<span class="px-2.5 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-semibold flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>Active Growth
+            </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Retirement Independence</h3>
+<p class="font-caption text-caption text-on-surface-variant">Corpus 2055 • 30 yr runway</p>
+<div class="mt-4">
+<div class="flex justify-between items-baseline mb-1">
+<span class="font-label-md text-label-md font-bold text-on-surface sensitive-data">₹16,50,000</span>
+<span class="font-caption text-caption text-on-surface-variant">of ₹2.4 Cr</span>
+</div>
+<div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">
+<div class="bg-secondary h-full rounded-full transition-all" style="width: 14%"></div>
+</div>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between font-caption text-caption text-on-surface-variant">
+<span>EPF + Index SIP</span>
+<span class="text-tertiary font-semibold">12.4% CAGR Model</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Floating AI Assistant Prompt Hook -->
+<div class="fixed bottom-6 right-6 z-40">
+<div class="flex items-center gap-2 p-1.5 pr-4 bg-surface-container-lowest/95 backdrop-blur-md rounded-full shadow-xl transition-all hover:scale-105">
+<div class="w-9 h-9 rounded-full bg-secondary text-on-secondary flex items-center justify-center shadow-md animate-pulse">
+<span class="material-symbols-outlined text-lg">psychology</span>
+</div>
+<div class="flex flex-col text-left">
+<span class="font-label-sm text-label-sm font-bold text-on-surface leading-tight">Advisor Standby</span>
+<span class="font-caption text-caption text-on-surface-variant leading-tight">Ask questions regarding tax or SIPs</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Vanilla Micro-Interactivity Script -->
+<script>
+  (function () {
+    // 1. Privacy / Eye Masking Toggle
+    const privacyBtn = document.getElementById('toggle-privacy-btn');
+    const privacyIcon = document.getElementById('privacy-icon');
+    const privacyLabel = document.getElementById('privacy-label');
+    const sensitiveNodes = document.querySelectorAll('.sensitive-data');
+    let isMasked = false;
+
+    // Cache originals
+    const originals = Array.from(sensitiveNodes).map(node => node.textContent);
+
+    if (privacyBtn) {
+      privacyBtn.addEventListener('click', () => {
+        isMasked = !isMasked;
+        if (isMasked) {
+          sensitiveNodes.forEach(node => {
+            node.dataset.original = node.textContent;
+            node.textContent = '••••••••';
+          });
+          privacyIcon.textContent = 'visibility_off';
+          privacyLabel.textContent = 'Show Balances';
+        } else {
+          sensitiveNodes.forEach((node, idx) => {
+            node.textContent = originals[idx];
+          });
+          privacyIcon.textContent = 'visibility';
+          privacyLabel.textContent = 'Hide Balances';
+        }
+      });
+    }
+
+    // 2. Horizon Switcher Tab State
+    const horizonButtons = document.querySelectorAll('.horizon-tab');
+    horizonButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        horizonButtons.forEach(b => {
+          b.className = 'horizon-tab px-space-md py-1.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all';
+        });
+        btn.className = 'horizon-tab px-space-md py-1.5 rounded-lg font-label-md text-label-md font-semibold bg-surface-container-lowest text-on-surface shadow-sm transition-all';
+      });
+    });
+
+    // 3. Chart Tab Horizon Switcher
+    const chartTabs = document.querySelectorAll('.chart-tab');
+    chartTabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        chartTabs.forEach(t => {
+          t.className = 'chart-tab px-2.5 py-1 rounded-md font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface';
+        });
+        tab.className = 'chart-tab px-2.5 py-1 rounded-md font-label-sm text-label-sm font-semibold bg-surface-container-lowest text-on-surface shadow-sm';
+      });
+    });
+
+    // 4. Dismiss AI Insight Card
+    const dismissBtn = document.getElementById('dismiss-insight-btn');
+    const insightBanner = document.getElementById('ai-insight-banner');
+    if (dismissBtn && insightBanner) {
+      dismissBtn.addEventListener('click', () => {
+        insightBanner.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+        insightBanner.style.opacity = '0';
+        insightBanner.style.transform = 'translateY(-10px)';
+        setTimeout(() => {
+          insightBanner.parentElement.style.display = 'none';
+        }, 300);
+      });
+    }
+
+    // 5. Update Finances Feedback
+    const updateBtn = document.getElementById('update-finances-btn');
+    if (updateBtn) {
+      updateBtn.addEventListener('click', () => {
+        const originalHtml = updateBtn.innerHTML;
+        updateBtn.innerHTML = '<span class="material-symbols-outlined text-base animate-spin">refresh</span><span>Syncing...</span>';
+        setTimeout(() => {
+          updateBtn.innerHTML = '<span class="material-symbols-outlined text-base text-tertiary-fixed">check</span><span>Synced</span>';
+          setTimeout(() => {
+            updateBtn.innerHTML = originalHtml;
+          }, 1500);
+        }, 800);
+      });
+    }
+  })();
+</script></main><footer class="w-full bg-surface-container-low py-space-xl mt-space-xl"><div class="w-full px-margin flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><span class="font-headline-sm text-headline-sm font-bold text-on-surface">LifePath</span><span class="font-body-sm text-body-sm text-on-surface-variant">— Precision Computational Financial Architecture</span></div><div class="flex items-center gap-space-lg"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface" href="#">Security &amp; Encryption</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface" href="#">Regulatory Disclosures</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface" href="#">Data Privacy</a></div><div class="font-caption text-caption text-on-surface-variant">© 2025 LifePath Systems Inc. Institutional rigor, calm foresight.</div></div></footer></body></html>

@@ -1,0 +1,135 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LumoDatabaseSchema",
+  "type": "object",
+  "required": [
+    "portfolio",
+    "goals",
+    "roadmap",
+    "scenarios",
+    "transfers",
+    "chatHistory"
+  ],
+  "properties": {
+    "portfolio": {
+      "type": "object",
+      "required": [
+        "userName",
+        "netWorth",
+        "monthlyIncome",
+        "monthlyExpenses",
+        "monthlySavings",
+        "idleChecking"
+      ],
+      "properties": {
+        "userName": { "type": "string" },
+        "membership": { "type": "string" },
+        "netWorth": { "type": "number" },
+        "yoyGrowthPct": { "type": "number" },
+        "last12MonthsAddition": { "type": "number" },
+        "healthScore": { "type": "number" },
+        "healthScoreStatus": { "type": "string" },
+        "monthlyIncome": { "type": "number" },
+        "monthlyExpenses": { "type": "number" },
+        "monthlySavings": { "type": "number" },
+        "investableSurplus": { "type": "number" },
+        "savingsRatePct": { "type": "number" },
+        "idleChecking": { "type": "number" },
+        "nextMoveExecuted": { "type": "boolean" }
+      }
+    },
+    "goals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "targetAmount", "currentAmount", "monthlyRequired"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "icon": { "type": "string" },
+          "targetAmount": { "type": "number" },
+          "currentAmount": { "type": "number" },
+          "monthlyRequired": { "type": "number" },
+          "status": { "type": "string", "enum": ["on_track", "attention", "ahead"] },
+          "statusLabel": { "type": "string" },
+          "horizon": { "type": "string", "enum": ["short", "medium", "long"] },
+          "priority": { "type": "string", "enum": ["high", "medium", "low"] },
+          "targetYear": { "type": "number" },
+          "targetDateLabel": { "type": "string" },
+          "note": { "type": "string" },
+          "accountType": { "type": "string" }
+        }
+      }
+    },
+    "roadmap": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "year", "age", "title", "targetAmount", "allocatedAmount", "status"],
+        "properties": {
+          "id": { "type": "string" },
+          "year": { "type": "number" },
+          "age": { "type": "number" },
+          "title": { "type": "string" },
+          "category": { "type": "string" },
+          "icon": { "type": "string" },
+          "targetAmount": { "type": "number" },
+          "allocatedAmount": { "type": "number" },
+          "status": { "type": "string" },
+          "deficitAmount": { "type": "number" },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "scenarios": {
+      "type": "object",
+      "required": ["scenarioA", "scenarioB", "outturnA", "outturnB"],
+      "properties": {
+        "scenarioA": { "type": "object" },
+        "scenarioB": { "type": "object" },
+        "outturnA": { "type": "object" },
+        "outturnB": { "type": "object" }
+      }
+    },
+    "transfers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "amount", "status"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "subtitle": { "type": "string" },
+          "amount": { "type": "number" },
+          "status": { "type": "string" },
+          "icon": { "type": "string" },
+          "date": { "type": "string" }
+        }
+      }
+    },
+    "chatHistory": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "sender", "text", "timestamp"],
+        "properties": {
+          "id": { "type": "string" },
+          "sender": { "type": "string", "enum": ["user", "ai"] },
+          "text": { "type": "string" },
+          "timestamp": { "type": "string" },
+          "tags": { "type": "array", "items": { "type": "string" } },
+          "metrics": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "label": { "type": "string" },
+                "value": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
