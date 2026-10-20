@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"outline":"#797587","on-primary":"#ffffff","on-surface":"#1b1b25","inverse-surface":"#302f3a","error":"#ba1a1a","tertiary-fixed-dim":"#ffb3b0","tertiary-container":"#bf3c40","surface-bright":"#fcf8ff","inverse-primary":"#c9beff","background":"#fcf8ff","surface-container-lowest":"#ffffff","surface-variant":"#e3e1ef","surface-tint":"#5f3ce4","inverse-on-surface":"#f2effd","on-tertiary":"#ffffff","outline-variant":"#c9c4d8","secondary-fixed-dim":"#3adfaa","tertiary":"#9d232a","on-primary-fixed-variant":"#4616cc","error-container":"#ffdad6","on-tertiary-container":"#ffe8e6","secondary-container":"#5cf9c2","surface":"#fcf8ff","on-background":"#1b1b25","primary":"#532cd8","on-secondary":"#ffffff","on-error-container":"#93000a","primary-fixed":"#e6deff","on-tertiary-fixed-variant":"#8c1520","surface-dim":"#dbd8e7","on-error":"#ffffff","secondary":"#006c4e","on-surface-variant":"#484555","surface-container-high":"#e9e6f5","secondary-fixed":"#60fcc5","on-primary-fixed":"#1b0062","on-secondary-fixed":"#002115","on-tertiary-fixed":"#410006","on-primary-container":"#f0eaff","on-secondary-fixed-variant":"#00513a","primary-fixed-dim":"#c9beff","primary-container":"#6c4cf1","surface-container-highest":"#e3e1ef","on-secondary-container":"#007152","surface-container":"#efecfb","surface-container-low":"#f5f2ff","tertiary-fixed":"#ffdad8"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"margin-desktop":"3rem","gutter-desktop":"1.5rem","space-lg":"1.5rem","margin-tablet":"2rem","margin":"1rem","space-xl":"2.5rem","space-md":"1rem","space-xs":"0.25rem","gutter":"1.25rem","space-sm":"0.5rem"},fontFamily:{"currency-stat":["Plus Jakarta Sans"],"currency-stat-mobile":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"body-sm":["Inter"],"display-hero":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"body-lg":["Inter"],"headline-lg-mobile":["Plus Jakarta Sans"],"body-md":["Inter"],"display-hero-mobile":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"]},fontSize:{"currency-stat":["40px",{"lineHeight":"48px","letterSpacing":"-0.02em","fontWeight":"800"}],"currency-stat-mobile":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"800"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.04em","fontWeight":"700"}],"headline-md":["24px",{"lineHeight":"32px","letterSpacing":"-0.015em","fontWeight":"700"}],"headline-sm":["18px",{"lineHeight":"26px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-sm":["13px",{"lineHeight":"18px","fontWeight":"400"}],"display-hero":["56px",{"lineHeight":"64px","letterSpacing":"-0.03em","fontWeight":"800"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.02em","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"26px","fontWeight":"400"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.015em","fontWeight":"700"}],"body-md":["14px",{"lineHeight":"22px","fontWeight":"400"}],"display-hero-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"800"}],"headline-lg":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"700"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><aside class="fixed left-0 top-0 h-full w-72 bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-50 flex flex-col justify-between p-space-md"><div class="flex flex-col gap-space-md"><div class="flex items-center gap-space-sm px-space-xs py-space-xs"><img alt="Lumo Brand Mark" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WXbE-S-wugxw1daMgV8vD3jTdSznBdILuFIwlgV8CkaRqQG1jq_gYbj3VBy_hFvMrgV1pg90_oRn_HYmH9Sp8B1xXpWQHXFVwe12vtBsaud1UFqvEGNDrKNikHQUy9FlEyFTlOz0X4kZYcnbkjVwd6UWzhGjBkp8vvOAH_cgIbQaHmW6IJWIuxbpZc7e4INCJrThnKM6CEubVm9HSmt_xFwCuOFePB2nXwbIEKoSGViI3LA3jArnX0tQ"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface leading-none">Lumo</span><span class="font-label-sm text-label-sm text-on-surface-variant">AI Financial Planner</span></div></div><nav class="flex flex-col gap-space-xs mt-space-sm" data-active-classes="bg-primary-container text-on-primary-container font-headline-sm rounded-full shadow-[0_4px_14px_rgba(108,76,241,0.25)]"><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-full text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all duration-200" data-path="dashboard" href="#"><span class="material-symbols-outlined text-primary">grid_view</span><span class="font-headline-sm text-headline-sm">Dashboard</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-full text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all duration-200" data-path="financial-profile" href="#"><span class="material-symbols-outlined text-on-surface-variant">account_balance_wallet</span><span class="font-headline-sm text-headline-sm">Financial Profile</span></a><a aria-current="page" class="flex items-center justify-between px-space-md py-space-sm transition-all duration-200 bg-primary-container text-on-primary-container font-headline-sm rounded-full shadow-[0_4px_14px_rgba(108,76,241,0.25)]" data-path="goals-manager" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-on-surface-variant">flag</span><span class="font-headline-sm text-headline-sm">Goals Manager</span></div><span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">4</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-full text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all duration-200" data-path="life-roadmap-timeline" href="#"><span class="material-symbols-outlined text-on-surface-variant">timeline</span><span class="font-headline-sm text-headline-sm">Roadmap</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-full text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all duration-200" data-path="scenario-simulator" href="#"><span class="material-symbols-outlined text-on-surface-variant">tune</span><span class="font-headline-sm text-headline-sm">Simulator</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-full text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all duration-200" data-path="compare-options" href="#"><span class="material-symbols-outlined text-on-surface-variant">balance</span><span class="font-headline-sm text-headline-sm">Invest Options</span></a><a class="flex items-center justify-between px-space-md py-space-sm rounded-full text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all duration-200" data-path="lumo-ai-chat" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-primary">auto_awesome</span><span class="font-headline-sm text-headline-sm">Lumo AI</span></div><span class="flex h-2 w-2 rounded-full bg-primary animate-pulse"></span></a></nav></div><div class="flex flex-col gap-space-sm pt-space-md bg-surface-container-low rounded-xl p-space-sm"><div class="flex items-center gap-space-sm"><div class="relative"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6xWsUrxUL_q0-7r-QAR9p0GRLd_ATKKzSPyGf5J_zbURoSHb5d52QfFMSpdqdwSuiF7Yp6laP3x6A4PThC8gfY9GzveJMqPsK0V-Z11lLZDEhHeObasmFeJ-WrHb9Y2ZtGoDhjQkMLspuq00byHgW2fOTuEeUUXANEyukWnwTbT_mLZXNgWF19QLqSUgZjH5To-f9QTZY-I1MTqEljPayP1RuoazFkvn-B9o-dzFWt_Q01wUJ-XW3"/><span class="absolute bottom-0 right-0 w-2.5 h-2.5 rounded-full bg-secondary-fixed-dim ring-2 ring-surface-container-lowest"></span></div><div class="flex flex-col flex-1 min-w-0"><span class="font-headline-sm text-headline-sm text-on-surface truncate">Alex Vance</span><span class="font-label-sm text-label-sm text-on-surface-variant truncate">PRO Member</span></div><button class="flex items-center justify-center text-on-surface-variant hover:text-on-surface p-space-xs"><span class="material-symbols-outlined">settings</span></button></div></div></aside><div class="pl-72"><header class="fixed top-0 left-72 right-0 h-16 bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-40 flex items-center justify-between px-space-lg"><div class="flex items-center gap-space-md flex-1 max-w-lg"><div class="flex items-center gap-space-xs w-full bg-surface-container-lowest rounded-full px-space-md py-space-xs shadow-[0_1px_8px_rgba(0,0,0,0.02)]"><span class="material-symbols-outlined text-on-surface-variant">search</span><input class="w-full bg-transparent font-body-sm text-body-sm text-on-surface placeholder:text-on-surface-variant focus:outline-none" placeholder="Ask Lumo or search goals, assets, metrics..." type="text"/></div></div><div class="flex items-center gap-space-md"><div class="hidden md:flex items-center gap-space-sm bg-surface-container-low px-space-md py-1.5 rounded-full"><span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Health Score</span><span class="font-headline-sm text-headline-sm text-secondary">94/100</span></div><button class="flex items-center gap-space-xs bg-primary text-on-primary px-space-md py-2 rounded-full font-headline-sm text-headline-sm shadow-[0_4px_14px_rgba(108,76,241,0.35)] hover:-translate-y-0.5 transition-transform duration-200"><span class="material-symbols-outlined text-lg">add</span><span>New Goal</span></button><div class="flex items-center gap-space-xs text-on-surface-variant"><button class="relative p-space-xs rounded-full hover:bg-surface-container-high hover:text-on-surface transition-colors"><span class="material-symbols-outlined">notifications</span><span class="absolute top-1 right-1 w-2 h-2 rounded-full bg-error"></span></button></div><div class="flex items-center"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6xWsUrxUL_q0-7r-QAR9p0GRLd_ATKKzSPyGf5J_zbURoSHb5d52QfFMSpdqdwSuiF7Yp6laP3x6A4PThC8gfY9GzveJMqPsK0V-Z11lLZDEhHeObasmFeJ-WrHb9Y2ZtGoDhjQkMLspuq00byHgW2fOTuEeUUXANEyukWnwTbT_mLZXNgWF19QLqSUgZjH5To-f9QTZY-I1MTqEljPayP1RuoazFkvn-B9o-dzFWt_Q01wUJ-XW3"/></div></div></header><main class="relative pt-16 w-full px-space-lg bg-surface min-h-screen"><div class="flex flex-col w-full pb-space-xl">
+<!-- Subtle Ambient Background Glows -->
+<div class="relative w-full">
+<div class="absolute -top-10 left-1/4 w-96 h-96 bg-primary-fixed/30 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<div class="absolute top-48 right-10 w-80 h-80 bg-secondary-container/20 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<!-- Header & Summary Meta Strip -->
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-md pt-space-md mb-space-lg">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="px-space-xs py-0.5 rounded-full bg-primary-fixed text-primary font-label-sm text-label-sm uppercase tracking-wider">Milestone Orchestrator</span>
+<span class="text-on-surface-variant font-label-sm text-label-sm">• Real-time auto-rebalance</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Your Life Milestones</h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+          Lumo dynamically balances monthly surplus across time horizons, optimizing liquidity, tax efficiency, and priority locks.
+        </p>
+</div>
+<!-- Action Cluster -->
+<div class="flex items-center gap-space-sm flex-wrap">
+<div class="flex items-center gap-space-xs bg-surface-container-low px-space-md py-2 rounded-full shadow-sm">
+<span class="material-symbols-outlined text-secondary text-sm" style="font-variation-settings: 'FILL' 1;">sync</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Surplus Auto-Routed:</span>
+<span class="font-headline-sm text-headline-sm text-secondary">$4,800/mo</span>
+</div>
+<button class="flex items-center gap-space-xs bg-primary text-on-primary px-space-lg py-3 rounded-full font-headline-sm text-headline-sm shadow-md hover:-translate-y-0.5 hover:shadow-lg transition-all duration-200" id="openPresetBtn">
+<span class="material-symbols-outlined text-lg">add_circle</span>
+<span>Add New Goal</span>
+</button>
+</div>
+</div>
+<!-- Smart Priority Activated Ambient Card -->
+<div class="relative overflow-hidden bg-surface-container-lowest rounded-xl p-space-md shadow-sm mb-space-lg">
+<div class="absolute left-0 top-0 bottom-0 w-1.5 bg-gradient-to-b from-primary via-secondary to-primary-container"></div>
+<div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md pl-space-xs">
+<div class="flex items-start md:items-center gap-space-md">
+<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center shrink-0 text-primary">
+<span class="material-symbols-outlined text-xl" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface">Smart Priority Activated</span>
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold">Active Engine</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-0.5">
+              When monthly surplus fluctuates, funding flows first to <strong class="text-on-surface font-semibold">High Priority goals (Emergency Fund &amp; Home)</strong> to protect compounding and maintain lifestyle stability.
+            </p>
+</div>
+</div>
+<div class="flex items-center gap-space-sm shrink-0">
+<button class="px-space-md py-1.5 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-colors">
+            Configure Rules
+          </button>
+<button class="p-1.5 text-on-surface-variant hover:text-on-surface rounded-full transition-colors">
+<span class="material-symbols-outlined text-sm">tune</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Filter Pills Bar & Horizon Tab Switches -->
+<div class="flex items-center justify-between gap-space-md pb-space-md flex-wrap">
+<div class="flex items-center gap-space-xs overflow-x-auto py-1">
+<button class="filter-chip active flex items-center gap-space-xs px-space-md py-1.5 rounded-full bg-primary text-on-primary font-headline-sm text-headline-sm shadow-sm transition-all duration-200" data-filter="all">
+<span>All Milestones</span>
+<span class="bg-surface-container-lowest/20 px-1.5 py-0.2 rounded-full text-xs">6</span>
+</button>
+<button class="filter-chip flex items-center gap-space-xs px-space-md py-1.5 rounded-full bg-surface-container-lowest text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high font-headline-sm text-headline-sm transition-all duration-200" data-filter="short">
+<span>Short-term (0–3 yrs)</span>
+<span class="bg-surface-container px-1.5 py-0.2 rounded-full text-xs">2</span>
+</button>
+<button class="filter-chip flex items-center gap-space-xs px-space-md py-1.5 rounded-full bg-surface-container-lowest text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high font-headline-sm text-headline-sm transition-all duration-200" data-filter="medium">
+<span>Medium-term (3–10 yrs)</span>
+<span class="bg-surface-container px-1.5 py-0.2 rounded-full text-xs">2</span>
+</button>
+<button class="filter-chip flex items-center gap-space-xs px-space-md py-1.5 rounded-full bg-surface-container-lowest text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high font-headline-sm text-headline-sm transition-all duration-200" data-filter="long">
+<span>Long-term (10+ yrs)</span>
+<span class="bg-surface-container px-1.5 py-0.2 rounded-full text-xs">2</span>
+</button>
+</div>
+<div class="flex items-center gap-space-sm text-on-surface-variant font-label-sm text-label-sm">
+<span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-secondary"></span> On Track: 5</span>
+<span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-tertiary"></span> Review: 1</span>
+</div>
+</div>
+<!-- Main Workspace Bento: Horizon Columns + Presets Drawer -->
+<div class="grid grid-cols-1 xl:grid-cols-12 gap-space-lg items-start">
+<!-- Left/Center 9 Columns: 3 Drag-and-Drop Columns -->
+<div class="xl:col-span-9 flex flex-col gap-space-lg">
+<!-- Column Container (3 horizontal blocks for horizons) -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-space-md">
+<!-- SHORT-TERM HORIZON (0-3 Years) -->
+<div class="flex flex-col gap-space-md bg-surface-container-low/60 p-space-sm rounded-xl">
+<div class="flex items-center justify-between px-space-xs pt-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Short-term</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">0–3 yrs</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface-container-lowest px-2 py-0.5 rounded-full">$830/mo</span>
+</div>
+<div class="flex flex-col gap-space-md">
+<!-- Card 1: Emergency Fund -->
+<div class="group relative bg-surface-container-lowest rounded-xl p-space-md shadow-sm hover:shadow-md transition-all duration-200 cursor-grab active:cursor-grabbing">
+<div class="flex items-start justify-between mb-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed/40 flex items-center justify-center text-xl">
+                      🛡️
+                    </div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">6-Mo Emergency Fund</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Liquid High Yield HYSA</span>
+</div>
+</div>
+<button class="text-outline hover:text-on-surface p-1 transition-colors" title="Drag to reorder priority">
+<span class="material-symbols-outlined text-base">drag_indicator</span>
+</button>
+</div>
+<!-- Circular Progress & Numbers Bento Slice -->
+<div class="flex items-center justify-between gap-space-sm bg-surface-container-low/40 rounded-lg p-space-sm mb-space-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Saved / Target</span>
+<div class="flex items-baseline gap-1 mt-0.5">
+<span class="font-headline-md text-headline-md text-on-surface">$21,400</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ $25k</span>
+</div>
+</div>
+<!-- Inline SVG Gauge -->
+<div class="relative w-12 h-12 flex items-center justify-center shrink-0">
+<svg class="w-12 h-12 -rotate-90" viewbox="0 0 36 36">
+<path class="text-surface-variant" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="3.5"></path>
+<path class="text-secondary" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="85, 100" stroke-linecap="round" stroke-width="3.5"></path>
+</svg>
+<span class="absolute font-label-sm text-label-sm text-secondary font-bold">85%</span>
+</div>
+</div>
+<!-- Footer Metas -->
+<div class="flex items-center justify-between pt-space-xs text-on-surface-variant">
+<div class="flex items-center gap-1 font-label-md text-label-md">
+<span class="material-symbols-outlined text-sm text-primary">schedule</span>
+<span>Req: <strong class="text-on-surface">$450/mo</strong></span>
+</div>
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold">On Track</span>
+</div>
+</div>
+<!-- Card 2: Japan & Nordic Sabbatical -->
+<div class="group relative bg-surface-container-lowest rounded-xl p-space-md shadow-sm hover:shadow-md transition-all duration-200 cursor-grab active:cursor-grabbing">
+<div class="flex items-start justify-between mb-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center text-xl">
+                      ✈️
+                    </div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Japan &amp; Nordic Trip</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Target Date: May 2026</span>
+</div>
+</div>
+<button class="text-outline hover:text-on-surface p-1 transition-colors">
+<span class="material-symbols-outlined text-base">drag_indicator</span>
+</button>
+</div>
+<div class="flex items-center justify-between gap-space-sm bg-surface-container-low/40 rounded-lg p-space-sm mb-space-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Saved / Target</span>
+<div class="flex items-baseline gap-1 mt-0.5">
+<span class="font-headline-md text-headline-md text-on-surface">$5,200</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ $9,000</span>
+</div>
+</div>
+<div class="relative w-12 h-12 flex items-center justify-center shrink-0">
+<svg class="w-12 h-12 -rotate-90" viewbox="0 0 36 36">
+<path class="text-surface-variant" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="3.5"></path>
+<path class="text-primary-container" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="58, 100" stroke-linecap="round" stroke-width="3.5"></path>
+</svg>
+<span class="absolute font-label-sm text-label-sm text-primary font-bold">58%</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-xs text-on-surface-variant">
+<div class="flex items-center gap-1 font-label-md text-label-md">
+<span class="material-symbols-outlined text-sm text-primary">schedule</span>
+<span>Req: <strong class="text-on-surface">$380/mo</strong></span>
+</div>
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold">On Track</span>
+</div>
+</div>
+</div>
+</div>
+<!-- MEDIUM-TERM HORIZON (3-10 Years) -->
+<div class="flex flex-col gap-space-md bg-surface-container-low/60 p-space-sm rounded-xl">
+<div class="flex items-center justify-between px-space-xs pt-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-primary-container"></span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Medium-term</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">3–10 yrs</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface-container-lowest px-2 py-0.5 rounded-full">$2,270/mo</span>
+</div>
+<div class="flex flex-col gap-space-md">
+<!-- Card 3: Home Down Payment (NEEDS ATTENTION) -->
+<div class="group relative bg-surface-container-lowest rounded-xl p-space-md shadow-sm hover:shadow-md transition-all duration-200 cursor-grab active:cursor-grabbing">
+<div class="flex items-start justify-between mb-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-tertiary-fixed flex items-center justify-center text-xl">
+                      🏡
+                    </div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Home Down Payment</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Bay Area Metro Target</span>
+</div>
+</div>
+<button class="text-outline hover:text-on-surface p-1 transition-colors">
+<span class="material-symbols-outlined text-base">drag_indicator</span>
+</button>
+</div>
+<div class="flex items-center justify-between gap-space-sm bg-surface-container-low/40 rounded-lg p-space-sm mb-space-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Saved / Target</span>
+<div class="flex items-baseline gap-1 mt-0.5">
+<span class="font-headline-md text-headline-md text-on-surface">$48,000</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ $150k</span>
+</div>
+</div>
+<div class="relative w-12 h-12 flex items-center justify-center shrink-0">
+<svg class="w-12 h-12 -rotate-90" viewbox="0 0 36 36">
+<path class="text-surface-variant" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="3.5"></path>
+<path class="text-tertiary" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="32, 100" stroke-linecap="round" stroke-width="3.5"></path>
+</svg>
+<span class="absolute font-label-sm text-label-sm text-tertiary font-bold">32%</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-xs text-on-surface-variant">
+<div class="flex items-center gap-1 font-label-md text-label-md">
+<span class="material-symbols-outlined text-sm text-tertiary">priority_high</span>
+<span>Req: <strong class="text-on-surface">$1,650/mo</strong></span>
+</div>
+<span class="px-space-xs py-0.5 rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm font-bold flex items-center gap-0.5">
+                    Needs Attention
+                  </span>
+</div>
+<!-- Contextual Mini Advice Badge -->
+<div class="mt-space-sm p-space-xs bg-surface-container rounded-lg flex items-center justify-between text-xs text-on-surface-variant">
+<span>Lacking ~$210/mo to hit 2028 timeline</span>
+<a class="text-primary font-semibold hover:underline" href="#">Rebalance</a>
+</div>
+</div>
+<!-- Card 4: Wedding & Celebration -->
+<div class="group relative bg-surface-container-lowest rounded-xl p-space-md shadow-sm hover:shadow-md transition-all duration-200 cursor-grab active:cursor-grabbing">
+<div class="flex items-start justify-between mb-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center text-xl">
+                      💍
+                    </div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Wedding &amp; Celebration</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Ceremony &amp; Honeymoon</span>
+</div>
+</div>
+<button class="text-outline hover:text-on-surface p-1 transition-colors">
+<span class="material-symbols-outlined text-base">drag_indicator</span>
+</button>
+</div>
+<div class="flex items-center justify-between gap-space-sm bg-surface-container-low/40 rounded-lg p-space-sm mb-space-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Saved / Target</span>
+<div class="flex items-baseline gap-1 mt-0.5">
+<span class="font-headline-md text-headline-md text-on-surface">$14,000</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ $35,000</span>
+</div>
+</div>
+<div class="relative w-12 h-12 flex items-center justify-center shrink-0">
+<svg class="w-12 h-12 -rotate-90" viewbox="0 0 36 36">
+<path class="text-surface-variant" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="3.5"></path>
+<path class="text-secondary" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="40, 100" stroke-linecap="round" stroke-width="3.5"></path>
+</svg>
+<span class="absolute font-label-sm text-label-sm text-secondary font-bold">40%</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-xs text-on-surface-variant">
+<div class="flex items-center gap-1 font-label-md text-label-md">
+<span class="material-symbols-outlined text-sm text-primary">schedule</span>
+<span>Req: <strong class="text-on-surface">$620/mo</strong></span>
+</div>
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold">On Track</span>
+</div>
+</div>
+</div>
+</div>
+<!-- LONG-TERM HORIZON (10+ Years) -->
+<div class="flex flex-col gap-space-md bg-surface-container-low/60 p-space-sm rounded-xl">
+<div class="flex items-center justify-between px-space-xs pt-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-primary"></span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Long-term</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">10+ yrs</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface-container-lowest px-2 py-0.5 rounded-full">$1,700/mo</span>
+</div>
+<div class="flex flex-col gap-space-md">
+<!-- Card 5: Seed Venture Fund -->
+<div class="group relative bg-surface-container-lowest rounded-xl p-space-md shadow-sm hover:shadow-md transition-all duration-200 cursor-grab active:cursor-grabbing">
+<div class="flex items-start justify-between mb-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center text-xl">
+                      🚀
+                    </div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Seed Venture Fund</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Angel &amp; Equity Pool</span>
+</div>
+</div>
+<button class="text-outline hover:text-on-surface p-1 transition-colors">
+<span class="material-symbols-outlined text-base">drag_indicator</span>
+</button>
+</div>
+<div class="flex items-center justify-between gap-space-sm bg-surface-container-low/40 rounded-lg p-space-sm mb-space-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Saved / Target</span>
+<div class="flex items-baseline gap-1 mt-0.5">
+<span class="font-headline-md text-headline-md text-on-surface">$12,000</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ $100k</span>
+</div>
+</div>
+<div class="relative w-12 h-12 flex items-center justify-center shrink-0">
+<svg class="w-12 h-12 -rotate-90" viewbox="0 0 36 36">
+<path class="text-surface-variant" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="3.5"></path>
+<path class="text-primary-container" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="12, 100" stroke-linecap="round" stroke-width="3.5"></path>
+</svg>
+<span class="absolute font-label-sm text-label-sm text-primary font-bold">12%</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-xs text-on-surface-variant">
+<div class="flex items-center gap-1 font-label-md text-label-md">
+<span class="material-symbols-outlined text-sm text-primary">schedule</span>
+<span>Req: <strong class="text-on-surface">$500/mo</strong></span>
+</div>
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold">On Track</span>
+</div>
+</div>
+<!-- Card 6: Early Retirement & Freedom -->
+<div class="group relative bg-surface-container-lowest rounded-xl p-space-md shadow-sm hover:shadow-md transition-all duration-200 cursor-grab active:cursor-grabbing">
+<div class="flex items-start justify-between mb-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed/40 flex items-center justify-center text-xl">
+                      🏖️
+                    </div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Early Retirement</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Age 52 FIRE Target</span>
+</div>
+</div>
+<button class="text-outline hover:text-on-surface p-1 transition-colors">
+<span class="material-symbols-outlined text-base">drag_indicator</span>
+</button>
+</div>
+<div class="flex items-center justify-between gap-space-sm bg-surface-container-low/40 rounded-lg p-space-sm mb-space-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Saved / Target</span>
+<div class="flex items-baseline gap-1 mt-0.5">
+<span class="font-headline-md text-headline-md text-on-surface">$112,000</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ $2.5M</span>
+</div>
+</div>
+<div class="relative w-12 h-12 flex items-center justify-center shrink-0">
+<svg class="w-12 h-12 -rotate-90" viewbox="0 0 36 36">
+<path class="text-surface-variant" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="3.5"></path>
+<path class="text-secondary" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="24, 100" stroke-linecap="round" stroke-width="3.5"></path>
+</svg>
+<span class="absolute font-label-sm text-label-sm text-secondary font-bold">4.5%</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-xs text-on-surface-variant">
+<div class="flex items-center gap-1 font-label-md text-label-md">
+<span class="material-symbols-outlined text-sm text-primary">schedule</span>
+<span>Req: <strong class="text-on-surface">$1,200/mo</strong></span>
+</div>
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold">On Track</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Monthly Savings & Allocation Aggregator Bar -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm">
+<div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-space-md">
+<div>
+<span class="font-label-sm text-label-sm text-primary font-bold uppercase tracking-wider">Surplus Allocation Health</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">Monthly Required vs. Dedicated Cash Flow</h3>
+</div>
+<div class="flex items-center gap-space-md">
+<div class="flex flex-col text-right">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Total Milestone Requirement</span>
+<span class="font-headline-md text-headline-md text-on-surface">$4,800 <span class="font-body-sm text-body-sm text-on-surface-variant">/ $5,150 available</span></span>
+</div>
+<div class="h-10 w-px bg-surface-container-high hidden sm:block"></div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary font-bold">Surplus Buffer</span>
+<span class="font-headline-md text-headline-md text-secondary">+$350/mo</span>
+</div>
+</div>
+</div>
+<!-- Stacked Segment Progress Visualizer -->
+<div class="w-full mt-space-md">
+<div class="h-3.5 w-full bg-surface-container-high rounded-full overflow-hidden flex">
+<div class="h-full bg-secondary" style="width: 17%;" title="Emergency Fund: $450/mo"></div>
+<div class="h-full bg-primary" style="width: 8%;" title="Travel: $380/mo"></div>
+<div class="h-full bg-tertiary-container" style="width: 34%;" title="Home: $1,650/mo"></div>
+<div class="h-full bg-primary-container" style="width: 13%;" title="Wedding: $620/mo"></div>
+<div class="h-full bg-secondary-fixed-dim" style="width: 10%;" title="Angel Fund: $500/mo"></div>
+<div class="h-full bg-surface-tint" style="width: 18%;" title="Retirement: $1,200/mo"></div>
+</div>
+<div class="flex items-center justify-between mt-space-xs text-xs text-on-surface-variant flex-wrap gap-2">
+<span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-secondary"></span> 6-Mo Emerg ($450)</span>
+<span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-primary"></span> Japan ($380)</span>
+<span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-tertiary-container"></span> Home ($1,650)</span>
+<span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-primary-container"></span> Wedding ($620)</span>
+<span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-secondary-fixed-dim"></span> Seed Fund ($500)</span>
+<span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-surface-tint"></span> FIRE ($1,200)</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Right 3 Columns: "Add Goal Presets" Sheet Preview Bar -->
+<div class="xl:col-span-3 flex flex-col gap-space-md">
+<!-- Preset Drawer Section -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm sticky top-20">
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-lg">bookmark_add</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Goal Presets</h2>
+</div>
+<span class="text-xs text-on-surface-variant bg-surface-container px-2 py-0.5 rounded-full">One-click</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+            Click any curated life blueprint to prefill timeline, suggested risk tolerance, and tax vehicle.
+          </p>
+<div class="flex flex-col gap-space-xs">
+<!-- Preset Item 1: Buy a House -->
+<button class="preset-item w-full flex items-center justify-between p-space-sm rounded-xl hover:bg-surface-container transition-all duration-200 text-left group">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-lg bg-surface-container-high group-hover:bg-primary-fixed flex items-center justify-center text-lg transition-colors">
+                  🏡
+                </div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Buy a House</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Down payment &amp; closing</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary group-hover:translate-x-0.5 transition-all text-base">add</span>
+</button>
+<!-- Preset Item 2: Wedding -->
+<button class="preset-item w-full flex items-center justify-between p-space-sm rounded-xl hover:bg-surface-container transition-all duration-200 text-left group">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-lg bg-surface-container-high group-hover:bg-primary-fixed flex items-center justify-center text-lg transition-colors">
+                  💍
+                </div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Wedding</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Ceremony &amp; reception</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary group-hover:translate-x-0.5 transition-all text-base">add</span>
+</button>
+<!-- Preset Item 3: Higher Ed -->
+<button class="preset-item w-full flex items-center justify-between p-space-sm rounded-xl hover:bg-surface-container transition-all duration-200 text-left group">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-lg bg-surface-container-high group-hover:bg-primary-fixed flex items-center justify-center text-lg transition-colors">
+                  🎓
+                </div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Higher Ed / MBA</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Tuition &amp; living stipend</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary group-hover:translate-x-0.5 transition-all text-base">add</span>
+</button>
+<!-- Preset Item 4: Start a Business -->
+<button class="preset-item w-full flex items-center justify-between p-space-sm rounded-xl hover:bg-surface-container transition-all duration-200 text-left group">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-lg bg-surface-container-high group-hover:bg-primary-fixed flex items-center justify-center text-lg transition-colors">
+                  💼
+                </div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Start a Business</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Runway &amp; seed capital</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary group-hover:translate-x-0.5 transition-all text-base">add</span>
+</button>
+<!-- Preset Item 5: Travel -->
+<button class="preset-item w-full flex items-center justify-between p-space-sm rounded-xl hover:bg-surface-container transition-all duration-200 text-left group">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-lg bg-surface-container-high group-hover:bg-primary-fixed flex items-center justify-center text-lg transition-colors">
+                  🏖️
+                </div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Sabbatical / Travel</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Short break or world trip</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary group-hover:translate-x-0.5 transition-all text-base">add</span>
+</button>
+<!-- Preset Item 6: Emergency Fund -->
+<button class="preset-item w-full flex items-center justify-between p-space-sm rounded-xl hover:bg-surface-container transition-all duration-200 text-left group">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-lg bg-surface-container-high group-hover:bg-primary-fixed flex items-center justify-center text-lg transition-colors">
+                  🛡️
+                </div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Emergency Safety Net</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">3–12 months living costs</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary group-hover:translate-x-0.5 transition-all text-base">add</span>
+</button>
+<!-- Preset Item 7: Retirement -->
+<button class="preset-item w-full flex items-center justify-between p-space-sm rounded-xl hover:bg-surface-container transition-all duration-200 text-left group">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-lg bg-surface-container-high group-hover:bg-primary-fixed flex items-center justify-center text-lg transition-colors">
+                  🌴
+                </div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">FIRE / Retirement</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Passive wealth index</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary group-hover:translate-x-0.5 transition-all text-base">add</span>
+</button>
+</div>
+<!-- Lumo AI Quick Tip Bento Box -->
+<div class="mt-space-md p-space-sm rounded-xl bg-surface-container-low flex flex-col gap-space-xs">
+<div class="flex items-center gap-1.5 text-primary">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">lightbulb</span>
+<span class="font-label-sm text-label-sm uppercase font-bold">Lumo Milestone Tip</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Consolidate your <strong class="text-on-surface">Emergency Fund</strong> surplus into a 4.8% APY cash vehicle to safely earn an extra $1,027 this year.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Interactive Slide-over / Modal for New Goal Builder -->
+<div class="fixed inset-0 z-50 bg-inverse-surface/40 backdrop-blur-sm hidden flex items-center justify-center p-space-md" id="goalModal">
+<div class="bg-surface-container-lowest rounded-xl max-w-lg w-full p-space-lg shadow-2xl flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<div class="w-8 h-8 rounded-full bg-primary-fixed text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-base">add</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Create Milestone</h3>
+</div>
+<button class="text-on-surface-variant hover:text-on-surface p-1 rounded-full" id="closeModalBtn">
+<span class="material-symbols-outlined text-xl">close</span>
+</button>
+</div>
+<div class="flex flex-col gap-space-sm">
+<div>
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase">Goal Name</label>
+<input class="w-full mt-1 px-space-md py-2.5 rounded-lg bg-surface-container-low text-on-surface focus:outline-none focus:ring-2 focus:ring-primary font-body-md text-body-md" placeholder="e.g., Electric Car Down Payment" type="text"/>
+</div>
+<div class="grid grid-cols-2 gap-space-sm">
+<div>
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase">Target Amount ($)</label>
+<input class="w-full mt-1 px-space-md py-2.5 rounded-lg bg-surface-container-low text-on-surface focus:outline-none focus:ring-2 focus:ring-primary font-body-md text-body-md" placeholder="20000" type="number"/>
+</div>
+<div>
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase">Target Horizon</label>
+<select class="w-full mt-1 px-space-md py-2.5 rounded-lg bg-surface-container-low text-on-surface focus:outline-none focus:ring-2 focus:ring-primary font-body-md text-body-md">
+<option>Short-term (0–3 yrs)</option>
+<option>Medium-term (3–10 yrs)</option>
+<option>Long-term (10+ yrs)</option>
+</select>
+</div>
+</div>
+<div>
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase">Priority Ranking</label>
+<div class="grid grid-cols-3 gap-2 mt-1">
+<button class="px-2 py-2 rounded-lg bg-surface-container hover:bg-surface-container-high text-xs font-semibold text-center text-on-surface focus:ring-2 focus:ring-primary" type="button">Critical</button>
+<button class="px-2 py-2 rounded-lg bg-primary-fixed text-primary text-xs font-semibold text-center focus:ring-2 focus:ring-primary" type="button">Important</button>
+<button class="px-2 py-2 rounded-lg bg-surface-container hover:bg-surface-container-high text-xs font-semibold text-center text-on-surface focus:ring-2 focus:ring-primary" type="button">Flexible</button>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-end gap-space-sm pt-space-xs">
+<button class="px-space-md py-2 rounded-full text-on-surface-variant hover:text-on-surface font-headline-sm text-headline-sm" id="cancelModalBtn">Cancel</button>
+<button class="px-space-lg py-2 rounded-full bg-primary text-on-primary font-headline-sm text-headline-sm shadow-md hover:bg-primary-container transition-all" id="saveGoalBtn">Launch Milestone</button>
+</div>
+</div>
+</div>
+<script>
+    // Tab Filter Interaction
+    const filterChips = document.querySelectorAll('.filter-chip');
+    filterChips.forEach(chip => {
+      chip.addEventListener('click', () => {
+        filterChips.forEach(c => {
+          c.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+          c.classList.add('bg-surface-container-lowest', 'text-on-surface-variant');
+        });
+        chip.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+        chip.classList.remove('bg-surface-container-lowest', 'text-on-surface-variant');
+      });
+    });
+
+    // Preset / Modal Controller
+    const modal = document.getElementById('goalModal');
+    const openBtn = document.getElementById('openPresetBtn');
+    const closeBtn = document.getElementById('closeModalBtn');
+    const cancelBtn = document.getElementById('cancelModalBtn');
+    const saveGoalBtn = document.getElementById('saveGoalBtn');
+    const presetButtons = document.querySelectorAll('.preset-item');
+
+    const showModal = () => modal.classList.remove('hidden');
+    const hideModal = () => modal.classList.add('hidden');
+
+    if (openBtn) openBtn.addEventListener('click', showModal);
+    if (closeBtn) closeBtn.addEventListener('click', hideModal);
+    if (cancelBtn) cancelBtn.addEventListener('click', hideModal);
+    if (saveGoalBtn) saveGoalBtn.addEventListener('click', hideModal);
+
+    presetButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        showModal();
+      });
+    });
+  </script>
+</div></main></div></body></html>

@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"outline":"#797587","on-primary":"#ffffff","on-surface":"#1b1b25","inverse-surface":"#302f3a","error":"#ba1a1a","tertiary-fixed-dim":"#ffb3b0","tertiary-container":"#bf3c40","surface-bright":"#fcf8ff","inverse-primary":"#c9beff","background":"#fcf8ff","surface-container-lowest":"#ffffff","surface-variant":"#e3e1ef","surface-tint":"#5f3ce4","inverse-on-surface":"#f2effd","on-tertiary":"#ffffff","outline-variant":"#c9c4d8","secondary-fixed-dim":"#3adfaa","tertiary":"#9d232a","on-primary-fixed-variant":"#4616cc","error-container":"#ffdad6","on-tertiary-container":"#ffe8e6","secondary-container":"#5cf9c2","surface":"#fcf8ff","on-background":"#1b1b25","primary":"#532cd8","on-secondary":"#ffffff","on-error-container":"#93000a","primary-fixed":"#e6deff","on-tertiary-fixed-variant":"#8c1520","surface-dim":"#dbd8e7","on-error":"#ffffff","secondary":"#006c4e","on-surface-variant":"#484555","surface-container-high":"#e9e6f5","secondary-fixed":"#60fcc5","on-primary-fixed":"#1b0062","on-secondary-fixed":"#002115","on-tertiary-fixed":"#410006","on-primary-container":"#f0eaff","on-secondary-fixed-variant":"#00513a","primary-fixed-dim":"#c9beff","primary-container":"#6c4cf1","surface-container-highest":"#e3e1ef","on-secondary-container":"#007152","surface-container":"#efecfb","surface-container-low":"#f5f2ff","tertiary-fixed":"#ffdad8"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"margin-desktop":"3rem","gutter-desktop":"1.5rem","space-lg":"1.5rem","margin-tablet":"2rem","margin":"1rem","space-xl":"2.5rem","space-md":"1rem","space-xs":"0.25rem","gutter":"1.25rem","space-sm":"0.5rem"},fontFamily:{"currency-stat":["Plus Jakarta Sans"],"currency-stat-mobile":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"body-sm":["Inter"],"display-hero":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"body-lg":["Inter"],"headline-lg-mobile":["Plus Jakarta Sans"],"body-md":["Inter"],"display-hero-mobile":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"]},fontSize:{"currency-stat":["40px",{"lineHeight":"48px","letterSpacing":"-0.02em","fontWeight":"800"}],"currency-stat-mobile":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"800"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.04em","fontWeight":"700"}],"headline-md":["24px",{"lineHeight":"32px","letterSpacing":"-0.015em","fontWeight":"700"}],"headline-sm":["18px",{"lineHeight":"26px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-sm":["13px",{"lineHeight":"18px","fontWeight":"400"}],"display-hero":["56px",{"lineHeight":"64px","letterSpacing":"-0.03em","fontWeight":"800"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.02em","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"26px","fontWeight":"400"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.015em","fontWeight":"700"}],"body-md":["14px",{"lineHeight":"22px","fontWeight":"400"}],"display-hero-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"800"}],"headline-lg":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"700"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><aside class="fixed left-0 top-0 h-full w-72 bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-50 flex flex-col justify-between p-space-md"><div class="flex flex-col gap-space-md"><div class="flex items-center gap-space-sm px-space-xs py-space-xs"><img alt="Lumo Brand Mark" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WXbE-S-wugxw1daMgV8vD3jTdSznBdILuFIwlgV8CkaRqQG1jq_gYbj3VBy_hFvMrgV1pg90_oRn_HYmH9Sp8B1xXpWQHXFVwe12vtBsaud1UFqvEGNDrKNikHQUy9FlEyFTlOz0X4kZYcnbkjVwd6UWzhGjBkp8vvOAH_cgIbQaHmW6IJWIuxbpZc7e4INCJrThnKM6CEubVm9HSmt_xFwCuOFePB2nXwbIEKoSGViI3LA3jArnX0tQ"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface leading-none">Lumo</span><span class="font-label-sm text-label-sm text-on-surface-variant">AI Financial Planner</span></div></div><nav class="flex flex-col gap-space-xs mt-space-sm" data-active-classes="bg-primary-container text-on-primary-container font-headline-sm rounded-full shadow-[0_4px_14px_rgba(108,76,241,0.25)]"><a aria-current="page" class="flex items-center gap-space-sm px-space-md py-space-sm transition-all duration-200 bg-primary-container text-on-primary-container font-headline-sm rounded-full shadow-[0_4px_14px_rgba(108,76,241,0.25)]" data-path="dashboard" href="#"><span class="material-symbols-outlined text-primary">grid_view</span><span class="font-headline-sm text-headline-sm">Dashboard</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-full text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all duration-200" data-path="financial-profile" href="#"><span class="material-symbols-outlined text-on-surface-variant">account_balance_wallet</span><span class="font-headline-sm text-headline-sm">Financial Profile</span></a><a class="flex items-center justify-between px-space-md py-space-sm rounded-full text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all duration-200" data-path="goals-manager" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-on-surface-variant">flag</span><span class="font-headline-sm text-headline-sm">Goals Manager</span></div><span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">4</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-full text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all duration-200" data-path="life-roadmap-timeline" href="#"><span class="material-symbols-outlined text-on-surface-variant">timeline</span><span class="font-headline-sm text-headline-sm">Roadmap</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-full text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all duration-200" data-path="scenario-simulator" href="#"><span class="material-symbols-outlined text-on-surface-variant">tune</span><span class="font-headline-sm text-headline-sm">Simulator</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-full text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all duration-200" data-path="compare-options" href="#"><span class="material-symbols-outlined text-on-surface-variant">balance</span><span class="font-headline-sm text-headline-sm">Invest Options</span></a><a class="flex items-center justify-between px-space-md py-space-sm rounded-full text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all duration-200" data-path="lumo-ai-chat" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-primary">auto_awesome</span><span class="font-headline-sm text-headline-sm">Lumo AI</span></div><span class="flex h-2 w-2 rounded-full bg-primary animate-pulse"></span></a></nav></div><div class="flex flex-col gap-space-sm pt-space-md bg-surface-container-low rounded-xl p-space-sm"><div class="flex items-center gap-space-sm"><div class="relative"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6xWsUrxUL_q0-7r-QAR9p0GRLd_ATKKzSPyGf5J_zbURoSHb5d52QfFMSpdqdwSuiF7Yp6laP3x6A4PThC8gfY9GzveJMqPsK0V-Z11lLZDEhHeObasmFeJ-WrHb9Y2ZtGoDhjQkMLspuq00byHgW2fOTuEeUUXANEyukWnwTbT_mLZXNgWF19QLqSUgZjH5To-f9QTZY-I1MTqEljPayP1RuoazFkvn-B9o-dzFWt_Q01wUJ-XW3"/><span class="absolute bottom-0 right-0 w-2.5 h-2.5 rounded-full bg-secondary-fixed-dim ring-2 ring-surface-container-lowest"></span></div><div class="flex flex-col flex-1 min-w-0"><span class="font-headline-sm text-headline-sm text-on-surface truncate">Alex Vance</span><span class="font-label-sm text-label-sm text-on-surface-variant truncate">PRO Member</span></div><button class="flex items-center justify-center text-on-surface-variant hover:text-on-surface p-space-xs"><span class="material-symbols-outlined">settings</span></button></div></div></aside><div class="pl-72"><header class="fixed top-0 left-72 right-0 h-16 bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-40 flex items-center justify-between px-space-lg"><div class="flex items-center gap-space-md flex-1 max-w-lg"><div class="flex items-center gap-space-xs w-full bg-surface-container-lowest rounded-full px-space-md py-space-xs shadow-[0_1px_8px_rgba(0,0,0,0.02)]"><span class="material-symbols-outlined text-on-surface-variant">search</span><input class="w-full bg-transparent font-body-sm text-body-sm text-on-surface placeholder:text-on-surface-variant focus:outline-none" placeholder="Ask Lumo or search goals, assets, metrics..." type="text"/></div></div><div class="flex items-center gap-space-md"><div class="hidden md:flex items-center gap-space-sm bg-surface-container-low px-space-md py-1.5 rounded-full"><span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Health Score</span><span class="font-headline-sm text-headline-sm text-secondary">94/100</span></div><button class="flex items-center gap-space-xs bg-primary text-on-primary px-space-md py-2 rounded-full font-headline-sm text-headline-sm shadow-[0_4px_14px_rgba(108,76,241,0.35)] hover:-translate-y-0.5 transition-transform duration-200"><span class="material-symbols-outlined text-lg">add</span><span>New Goal</span></button><div class="flex items-center gap-space-xs text-on-surface-variant"><button class="relative p-space-xs rounded-full hover:bg-surface-container-high hover:text-on-surface transition-colors"><span class="material-symbols-outlined">notifications</span><span class="absolute top-1 right-1 w-2 h-2 rounded-full bg-error"></span></button></div><div class="flex items-center"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6xWsUrxUL_q0-7r-QAR9p0GRLd_ATKKzSPyGf5J_zbURoSHb5d52QfFMSpdqdwSuiF7Yp6laP3x6A4PThC8gfY9GzveJMqPsK0V-Z11lLZDEhHeObasmFeJ-WrHb9Y2ZtGoDhjQkMLspuq00byHgW2fOTuEeUUXANEyukWnwTbT_mLZXNgWF19QLqSUgZjH5To-f9QTZY-I1MTqEljPayP1RuoazFkvn-B9o-dzFWt_Q01wUJ-XW3"/></div></div></header><main class="relative pt-16 w-full px-space-lg bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Ambient Atmospheric Gradient Glows -->
+<div class="relative w-full overflow-hidden pb-12">
+<div class="pointer-events-none absolute -top-24 -left-20 w-96 h-96 rounded-full bg-primary-fixed-dim/30 blur-3xl -z-10"></div>
+<div class="pointer-events-none absolute top-40 right-10 w-80 h-80 rounded-full bg-secondary-fixed/25 blur-3xl -z-10"></div>
+<div class="pointer-events-none absolute bottom-10 left-1/3 w-72 h-72 rounded-full bg-tertiary-fixed/30 blur-3xl -z-10"></div>
+<!-- Top Greeting & Live Pulse Bar -->
+<div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-space-lg mb-space-lg mt-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary-container/50 text-secondary font-label-sm text-label-sm">
+<span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+            LIVE RADAR ACTIVE
+          </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">• Updated 12 mins ago</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+          Good morning, Maya ✨
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+          Let’s see where your money’s headed today. All systems primed for wealth velocity.
+        </p>
+</div>
+<!-- Financial Health Score & Lumo Smart Banner Capsule -->
+<div class="flex flex-wrap sm:flex-nowrap items-center gap-space-md bg-surface-container-lowest p-space-md rounded-2xl shadow-[0_8px_30px_-4px_rgba(26,26,36,0.04)]">
+<!-- Circular Progress Ring (Score 84) -->
+<div class="relative flex items-center justify-center w-20 h-20 shrink-0">
+<svg class="w-20 h-20 -rotate-90 transform" viewbox="0 0 80 80">
+<circle class="text-surface-container-high" cx="40" cy="40" fill="none" r="32" stroke="currentColor" stroke-width="7"></circle>
+<circle class="text-primary-container" cx="40" cy="40" fill="none" r="32" stroke="currentColor" stroke-dasharray="201.06" stroke-dashoffset="32.17" stroke-linecap="round" stroke-width="7"></circle>
+</svg>
+<div class="absolute flex flex-col items-center justify-center">
+<span class="font-headline-sm text-headline-sm text-on-surface font-extrabold leading-none">84</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant leading-none mt-0.5">/100</span>
+</div>
+</div>
+<div class="flex flex-col justify-center">
+<div class="flex items-center gap-1.5">
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary font-bold">Prime Trajectory</span>
+<span class="material-symbols-outlined text-secondary text-sm" style="font-variation-settings: 'FILL' 1;">verified</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 max-w-xs">
+            Top 6% in disciplined surplus allocation among peer age group.
+          </p>
+</div>
+</div>
+</div>
+<!-- AI Insight Micro-Banner -->
+<div class="relative overflow-hidden rounded-2xl bg-gradient-to-r from-primary-fixed/40 via-surface-container-lowest to-secondary-container/30 p-space-md mb-space-lg flex flex-col sm:flex-row sm:items-center justify-between gap-space-md shadow-[0_4px_20px_-2px_rgba(108,76,241,0.06)]">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded-full bg-primary-container text-on-primary flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-xl">auto_awesome</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm uppercase tracking-wide text-primary font-bold">Lumo Milestone Velocity</span>
+<span class="inline-flex px-2 py-0.2 rounded-full bg-surface-container-lowest font-label-sm text-label-sm text-secondary font-semibold">+3 Mos Ahead</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface truncate">
+            At your current pace, you'll complete your <span class="text-primary font-bold">Emergency Cushion</span> 3 months ahead of target!
+          </span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs shrink-0 self-end sm:self-auto">
+<button class="px-space-md py-2 rounded-full bg-surface-container-lowest text-on-surface hover:bg-surface-container-high transition-colors font-headline-sm text-headline-sm shadow-sm flex items-center gap-1.5">
+<span>See Projection</span>
+<span class="material-symbols-outlined text-base">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Master Bento Grid (12 Columns) -->
+<div class="grid grid-cols-1 md:grid-cols-8 lg:grid-cols-12 gap-space-lg">
+<!-- BENTO 1: Net Worth Card with Interactive Sparkline (Col 7) -->
+<div class="col-span-1 md:col-span-8 lg:col-span-7 bg-surface-container-lowest rounded-3xl p-space-lg shadow-[0_8px_30px_-4px_rgba(26,26,36,0.04)] flex flex-col justify-between relative overflow-hidden transition-all duration-200 hover:-translate-y-0.5">
+<div class="flex items-start justify-between">
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs mb-1">
+<span class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-base">trending_up</span>
+</span>
+<span class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant font-bold">Consolidated Net Worth</span>
+</div>
+<div class="flex items-baseline gap-space-sm mt-1">
+<span class="font-currency-stat text-currency-stat text-on-surface">$142,850</span>
+<span class="inline-flex items-center px-2.5 py-0.5 rounded-full bg-secondary-container/60 text-secondary font-headline-sm text-headline-sm font-semibold">
+<span class="material-symbols-outlined text-sm leading-none mr-0.5">north_east</span>+14.2% YoY
+              </span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">+$17,680 added over past 12 months</span>
+</div>
+<div class="inline-flex bg-surface-container-low p-1 rounded-full text-on-surface-variant">
+<button class="px-3 py-1 text-label-sm font-label-sm rounded-full bg-surface-container-lowest text-on-surface font-semibold shadow-xs">1Y</button>
+<button class="px-3 py-1 text-label-sm font-label-sm rounded-full hover:text-on-surface transition-colors">3Y</button>
+<button class="px-3 py-1 text-label-sm font-label-sm rounded-full hover:text-on-surface transition-colors">ALL</button>
+</div>
+</div>
+<!-- SVG Projection Area Graph -->
+<div class="mt-space-lg relative w-full h-44">
+<svg class="w-full h-full overflow-visible" preserveaspectratio="none" viewbox="0 0 600 160">
+<defs>
+<lineargradient id="primaryGradient" x1="0%" x2="0%" y1="0%" y2="100%">
+<stop offset="0%" stop-color="#6c4cf1" stop-opacity="0.32"></stop>
+<stop offset="70%" stop-color="#6c4cf1" stop-opacity="0.04"></stop>
+<stop offset="100%" stop-color="#6c4cf1" stop-opacity="0.0"></stop>
+</lineargradient>
+</defs>
+<!-- Guide Grid Lines -->
+<line class="text-surface-container" stroke="currentColor" stroke-dasharray="4 4" x1="0" x2="600" y1="40" y2="40"></line>
+<line class="text-surface-container" stroke="currentColor" stroke-dasharray="4 4" x1="0" x2="600" y1="90" y2="90"></line>
+<line class="text-surface-container" stroke="currentColor" stroke-dasharray="4 4" x1="0" x2="600" y1="140" y2="140"></line>
+<!-- Shaded Area -->
+<path d="M 0,140 Q 90,135 150,115 T 300,95 T 450,55 T 600,20 L 600,160 L 0,160 Z" fill="url(#primaryGradient)"></path>
+<!-- Continuous Line -->
+<path d="M 0,140 Q 90,135 150,115 T 300,95 T 450,55 T 600,20" fill="none" stroke="#532cd8" stroke-linecap="round" stroke-width="3.5"></path>
+<!-- Data Highlight Point at end -->
+<circle cx="600" cy="20" fill="#532cd8" r="6"></circle>
+<circle class="animate-ping" cx="600" cy="20" fill="#532cd8" opacity="0.25" r="12"></circle>
+</svg>
+<!-- Floating Micro Tag inside Chart -->
+<div class="absolute right-4 top-2 bg-surface-container-lowest/95 backdrop-blur-md px-3 py-1.5 rounded-xl shadow-md flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Oct '24: $142.8k</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-sm mt-space-sm border-t-0 text-on-surface-variant font-label-sm text-label-sm">
+<span>NOV '23 ($125,170)</span>
+<span>MAY '24 ($133,400)</span>
+<span class="text-primary font-bold">PROJECTED EOY ($148,200)</span>
+</div>
+</div>
+<!-- BENTO 2: Next Best Move Card (Electric Violet Accent Bento) (Col 5) -->
+<div class="col-span-1 md:col-span-8 lg:col-span-5 bg-gradient-to-br from-primary-container via-primary to-primary-container text-on-primary rounded-3xl p-space-lg shadow-[0_16px_36px_-6px_rgba(108,76,241,0.35)] flex flex-col justify-between relative overflow-hidden transition-all duration-200 hover:-translate-y-0.5">
+<div class="absolute top-0 right-0 translate-x-8 -translate-y-8 w-44 h-44 rounded-full bg-white/10 blur-xl pointer-events-none"></div>
+<div class="flex flex-col gap-space-sm relative z-10">
+<div class="flex items-center justify-between">
+<span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-white/20 backdrop-blur-md text-on-primary font-label-sm text-label-sm font-bold tracking-wider">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">bolt</span>
+              NEXT BEST MOVE
+            </span>
+<span class="font-label-sm text-label-sm text-on-primary-container bg-black/10 px-2 py-0.5 rounded-full">High Impact</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-primary mt-space-xs leading-snug">
+            Automate $450 into Index Funds before Friday
+          </h2>
+<p class="font-body-md text-body-md text-on-primary/80">
+            Unlocks an estimated <span class="text-secondary-fixed font-bold">+$18,400</span> over a 10-year compound window utilizing unused Checking buffer.
+          </p>
+</div>
+<div class="pt-space-md relative z-10 flex flex-col gap-space-sm">
+<div class="flex items-center justify-between bg-black/15 backdrop-blur-md rounded-2xl p-space-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-fixed">savings</span>
+<span class="font-body-sm text-body-sm text-on-primary font-medium">Idle Checking: $3,140</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary-fixed font-semibold">Safe to Move</span>
+</div>
+<button class="w-full h-12 bg-surface-container-lowest text-primary hover:bg-surface-container-lowest/90 transition-all font-headline-sm text-headline-sm rounded-full flex items-center justify-center gap-2 shadow-lg active:scale-95 duration-150">
+<span>Execute Move</span>
+<span class="material-symbols-outlined text-lg">check_circle</span>
+</button>
+</div>
+</div>
+<!-- BENTO 3: Cashflow Summary Card (Col 7) -->
+<div class="col-span-1 md:col-span-8 lg:col-span-7 bg-surface-container-lowest rounded-3xl p-space-lg shadow-[0_8px_30px_-4px_rgba(26,26,36,0.04)] flex flex-col justify-between">
+<div class="flex items-center justify-between mb-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="w-8 h-8 rounded-full bg-secondary-container/40 text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-base">payments</span>
+</span>
+<span class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant font-bold">Monthly Cashflow Flow</span>
+</div>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-secondary font-bold bg-secondary-container/30 px-3 py-1 rounded-full">
+<span class="material-symbols-outlined text-xs">thumb_up</span> 43.3% SAVINGS RATE
+          </span>
+</div>
+<!-- 4 Metrics Split Grid -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-sm">
+<div class="bg-surface-container-low rounded-2xl p-space-sm flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Income</span>
+<span class="font-headline-md text-headline-md text-on-surface mt-1">$8,200</span>
+<span class="font-label-sm text-label-sm text-secondary mt-0.5">Direct Deposit</span>
+</div>
+<div class="bg-surface-container-low rounded-2xl p-space-sm flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Expenses</span>
+<span class="font-headline-md text-headline-md text-on-surface mt-1">$4,650</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">56.7% of total</span>
+</div>
+<div class="bg-surface-container-low rounded-2xl p-space-sm flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Savings</span>
+<span class="font-headline-md text-headline-md text-secondary mt-1">$3,550</span>
+<span class="font-label-sm text-label-sm text-secondary mt-0.5">Above Target</span>
+</div>
+<div class="bg-primary-fixed/30 rounded-2xl p-space-sm flex flex-col">
+<span class="font-label-sm text-label-sm text-primary font-bold">Investable Surplus</span>
+<span class="font-headline-md text-headline-md text-primary mt-1">$2,100</span>
+<span class="font-label-sm text-label-sm text-primary/70 mt-0.5">Ready to Deploy</span>
+</div>
+</div>
+<!-- Visual Flow Breakdown Bar -->
+<div class="mt-space-md flex flex-col gap-space-xs">
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Cash allocation ratio</span>
+<span class="font-medium text-on-surface">57% Expenses • 43% Retained</span>
+</div>
+<div class="h-3 w-full bg-surface-container-high rounded-full overflow-hidden flex">
+<div class="h-full bg-outline-variant rounded-l-full" style="width: 56.7%"></div>
+<div class="h-full bg-primary" style="width: 25.6%"></div>
+<div class="h-full bg-secondary rounded-r-full" style="width: 17.7%"></div>
+</div>
+<div class="flex items-center gap-space-md font-label-sm text-label-sm text-on-surface-variant mt-1">
+<span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-full bg-outline-variant"></span> Living Costs</span>
+<span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-full bg-primary"></span> Investments</span>
+<span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-full bg-secondary"></span> High-Yield Vault</span>
+</div>
+</div>
+</div>
+<!-- BENTO 4: Income vs Spending Donut Card (Col 5) -->
+<div class="col-span-1 md:col-span-8 lg:col-span-5 bg-surface-container-lowest rounded-3xl p-space-lg shadow-[0_8px_30px_-4px_rgba(26,26,36,0.04)] flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="w-8 h-8 rounded-full bg-tertiary-fixed/40 text-tertiary flex items-center justify-center">
+<span class="material-symbols-outlined text-base">pie_chart</span>
+</span>
+<span class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant font-bold">Spending Distribution</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">This Month</span>
+</div>
+<!-- Donut Chart & Legend Composite -->
+<div class="flex items-center justify-center sm:justify-start gap-space-lg my-space-md">
+<!-- Inline Donut SVG -->
+<div class="relative w-32 h-32 shrink-0">
+<svg class="w-32 h-32 -rotate-90 transform" viewbox="0 0 100 100">
+<!-- Background track -->
+<circle class="text-surface-container-low" cx="50" cy="50" fill="none" r="38" stroke="currentColor" stroke-width="14"></circle>
+<!-- Rent 34% (stroke-dasharray: 81 238) -->
+<circle cx="50" cy="50" fill="none" r="38" stroke="#532cd8" stroke-dasharray="81 238" stroke-dashoffset="0" stroke-width="14"></circle>
+<!-- Investments 28% (stroke-dasharray: 67 238) -->
+<circle cx="50" cy="50" fill="none" r="38" stroke="#006c4e" stroke-dasharray="67 238" stroke-dashoffset="-81" stroke-width="14"></circle>
+<!-- Discretionary 18% (stroke-dasharray: 43 238) -->
+<circle cx="50" cy="50" fill="none" r="38" stroke="#6c4cf1" stroke-dasharray="43 238" stroke-dashoffset="-148" stroke-width="14"></circle>
+<!-- Groceries 14% (stroke-dasharray: 33 238) -->
+<circle cx="50" cy="50" fill="none" r="38" stroke="#ffb3b0" stroke-dasharray="33 238" stroke-dashoffset="-191" stroke-width="14"></circle>
+<!-- Utilities 6% (stroke-dasharray: 14 238) -->
+<circle cx="50" cy="50" fill="none" r="38" stroke="#c9c4d8" stroke-dasharray="14 238" stroke-dashoffset="-224" stroke-width="14"></circle>
+</svg>
+<div class="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
+<span class="font-label-sm text-label-sm text-on-surface-variant leading-none">TOTAL</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-extrabold mt-0.5">$4.65k</span>
+</div>
+</div>
+<!-- Donut Categories Legend -->
+<div class="flex flex-col gap-1.5 flex-1 min-w-0">
+<div class="flex items-center justify-between text-body-sm font-body-sm">
+<span class="flex items-center gap-1.5 text-on-surface truncate"><span class="w-2.5 h-2.5 rounded-full bg-primary shrink-0"></span>Rent &amp; Mort.</span>
+<span class="font-semibold text-on-surface">34%</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm">
+<span class="flex items-center gap-1.5 text-on-surface truncate"><span class="w-2.5 h-2.5 rounded-full bg-secondary shrink-0"></span>Investments</span>
+<span class="font-semibold text-on-surface">28%</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm">
+<span class="flex items-center gap-1.5 text-on-surface truncate"><span class="w-2.5 h-2.5 rounded-full bg-primary-container shrink-0"></span>Lifestyle</span>
+<span class="font-semibold text-on-surface">18%</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm">
+<span class="flex items-center gap-1.5 text-on-surface truncate"><span class="w-2.5 h-2.5 rounded-full bg-tertiary-fixed-dim shrink-0"></span>Groceries</span>
+<span class="font-semibold text-on-surface">14%</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm">
+<span class="flex items-center gap-1.5 text-on-surface truncate"><span class="w-2.5 h-2.5 rounded-full bg-outline-variant shrink-0"></span>Utilities</span>
+<span class="font-semibold text-on-surface">6%</span>
+</div>
+</div>
+</div>
+<button class="w-full py-2 bg-surface-container-low hover:bg-surface-container-high rounded-full font-headline-sm text-headline-sm text-on-surface transition-colors flex items-center justify-center gap-1 text-center">
+<span>Manage Category Caps</span>
+<span class="material-symbols-outlined text-sm">tune</span>
+</button>
+</div>
+<!-- BENTO 5: Goals Snapshot (Col 8) -->
+<div class="col-span-1 md:col-span-8 lg:col-span-8 bg-surface-container-lowest rounded-3xl p-space-lg shadow-[0_8px_30px_-4px_rgba(26,26,36,0.04)] flex flex-col justify-between">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="w-8 h-8 rounded-full bg-primary-fixed text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-base">flag</span>
+</span>
+<span class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant font-bold">Active Life Milestones</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-0.5 rounded-full bg-secondary-container/60 text-secondary font-label-sm text-label-sm font-bold">4 On Track</span>
+<span class="px-2.5 py-0.5 rounded-full bg-tertiary-fixed text-tertiary font-label-sm text-label-sm font-bold">1 Attention Needed</span>
+</div>
+</div>
+<!-- Goals Grid Cards -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<!-- Goal Item 1 -->
+<div class="bg-surface-container-low rounded-2xl p-space-md flex flex-col justify-between gap-space-sm hover:bg-surface-container transition-colors">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="text-2xl">🛡️</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Emergency Cushion</span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Ahead by 3 months</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">92%</span>
+</div>
+<div>
+<div class="h-2 w-full bg-surface-container-high rounded-full overflow-hidden mb-1.5">
+<div class="h-full bg-secondary rounded-full" style="width: 92%"></div>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>$23,000 saved</span>
+<span class="font-bold text-on-surface">$25,000</span>
+</div>
+</div>
+</div>
+<!-- Goal Item 2 (Attention Needed) -->
+<div class="bg-surface-container-low rounded-2xl p-space-md flex flex-col justify-between gap-space-sm border-0 relative overflow-hidden hover:bg-surface-container transition-colors">
+<div class="absolute -right-6 -top-6 w-16 h-16 bg-tertiary-fixed/30 rounded-full blur-lg pointer-events-none"></div>
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="text-2xl">🏡</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Down Payment 2028</span>
+<span class="font-label-sm text-label-sm text-tertiary font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">warning</span> Behind by $120/mo
+                  </span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-tertiary font-medium">38%</span>
+</div>
+<div>
+<div class="h-2 w-full bg-surface-container-high rounded-full overflow-hidden mb-1.5">
+<div class="h-full bg-tertiary rounded-full" style="width: 38%"></div>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>$38,000 saved</span>
+<span class="font-bold text-on-surface">$100,000</span>
+</div>
+</div>
+</div>
+<!-- Goal Item 3 -->
+<div class="bg-surface-container-low rounded-2xl p-space-md flex flex-col justify-between gap-space-sm hover:bg-surface-container transition-colors">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="text-2xl">🇯🇵</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Tokyo Sabbatical</span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">On Target (Apr 2025)</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">78%</span>
+</div>
+<div>
+<div class="h-2 w-full bg-surface-container-high rounded-full overflow-hidden mb-1.5">
+<div class="h-full bg-primary-container rounded-full" style="width: 78%"></div>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>$6,240 saved</span>
+<span class="font-bold text-on-surface">$8,000</span>
+</div>
+</div>
+</div>
+<!-- Goal Item 4 -->
+<div class="bg-surface-container-low rounded-2xl p-space-md flex flex-col justify-between gap-space-sm hover:bg-surface-container transition-colors">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="text-2xl">🚀</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Roth IRA Max-Out</span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Auto-contribution active</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">85%</span>
+</div>
+<div>
+<div class="h-2 w-full bg-surface-container-high rounded-full overflow-hidden mb-1.5">
+<div class="h-full bg-primary rounded-full" style="width: 85%"></div>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>$5,950 saved</span>
+<span class="font-bold text-on-surface">$7,000</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- BENTO 6: Smart Automated Transfers (Col 4) -->
+<div class="col-span-1 md:col-span-8 lg:col-span-4 bg-surface-container-lowest rounded-3xl p-space-lg shadow-[0_8px_30px_-4px_rgba(26,26,36,0.04)] flex flex-col justify-between">
+<div class="flex items-center justify-between mb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="w-8 h-8 rounded-full bg-secondary-fixed/50 text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-base">sync_alt</span>
+</span>
+<span class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant font-bold">Auto-Piloted Transfers</span>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant text-base cursor-pointer hover:text-on-surface">more_horiz</span>
+</div>
+<!-- Transfer Activity List -->
+<div class="flex flex-col gap-space-sm divide-y-0 my-space-xs">
+<!-- Row 1 -->
+<div class="flex items-center justify-between p-space-sm rounded-xl hover:bg-surface-container-low transition-colors">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-lg shrink-0">
+                🌱
+              </div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Vanguard S&amp;P 500</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Weekly DCA • Yesterday</span>
+</div>
+</div>
+<div class="flex flex-col items-end">
+<span class="font-headline-sm text-headline-sm text-on-surface">+$250.00</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-container/40 text-secondary font-label-sm text-label-sm font-semibold">Settled</span>
+</div>
+</div>
+<!-- Row 2 -->
+<div class="flex items-center justify-between p-space-sm rounded-xl hover:bg-surface-container-low transition-colors">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-lg shrink-0">
+                🏦
+              </div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Ally High-Yield 4.5%</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Auto Savings • Oct 28</span>
+</div>
+</div>
+<div class="flex flex-col items-end">
+<span class="font-headline-sm text-headline-sm text-on-surface">+$400.00</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-container/40 text-secondary font-label-sm text-label-sm font-semibold">Settled</span>
+</div>
+</div>
+<!-- Row 3 -->
+<div class="flex items-center justify-between p-space-sm rounded-xl hover:bg-surface-container-low transition-colors">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-lg shrink-0">
+                ✈️
+              </div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Travel Stash Vault</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Scheduled • Nov 1</span>
+</div>
+</div>
+<div class="flex flex-col items-end">
+<span class="font-headline-sm text-headline-sm text-on-surface">+$150.00</span>
+<span class="px-2 py-0.5 rounded-full bg-primary-fixed text-primary font-label-sm text-label-sm font-semibold">Queued</span>
+</div>
+</div>
+</div>
+<button class="w-full py-2 bg-surface-container-low hover:bg-surface-container-high rounded-full font-headline-sm text-headline-sm text-on-surface transition-colors flex items-center justify-center gap-1">
+<span>View All Automations</span>
+<span class="material-symbols-outlined text-sm">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Bottom Contextual Quick Bar -->
+<div class="mt-space-lg flex flex-col sm:flex-row items-center justify-between p-space-md rounded-2xl bg-surface-container-lowest shadow-[0_4px_20px_rgba(0,0,0,0.02)] gap-space-sm">
+<div class="flex items-center gap-space-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-xl">psychology</span>
+<span class="font-body-sm text-body-sm">
+          Lumo regularly recalculates market volatility and adjusts your auto-transfer timelines.
+        </span>
+</div>
+<div class="flex items-center gap-space-xs shrink-0">
+<a class="font-headline-sm text-headline-sm text-primary hover:underline flex items-center gap-1" href="#">
+<span>Run Custom Simulation</span>
+<span class="material-symbols-outlined text-sm">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+</div></main></div></body></html>

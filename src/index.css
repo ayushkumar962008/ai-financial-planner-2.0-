@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-surface: #fcf8ff;
+  --color-surface-lowest: #ffffff;
+  --color-surface-low: #f6f2fd;
+  --color-surface-container: #efecfb;
+  --color-surface-high: #e9e6f5;
+  --color-surface-highest: #e3e1ef;
+  --color-on-surface: #1b1b25;
+  --color-on-surface-variant: #484555;
+  --color-outline-variant: #c9c4d8;
+}
+
+html.dark {
+  --color-surface: #0e0d16;
+  --color-surface-lowest: #161524;
+  --color-surface-low: #1c1a2e;
+  --color-surface-container: #24223b;
+  --color-surface-high: #2f2c4a;
+  --color-surface-highest: #3d395e;
+  --color-on-surface: #f5f3ff;
+  --color-on-surface-variant: #b0adc4;
+  --color-outline-variant: #3a3754;
+}
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-surface, #fcf8ff);
+    color: var(--color-on-surface, #1b1b25);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  body {
+    overscroll-behavior: none;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Material Symbols alignment helper */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  vertical-align: middle;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Clean minimal scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f3ff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c2c6d8;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #737687;
+}
+
+/* Tabular figures for exact alignment in financial metrics */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

@@ -1,0 +1,798 @@
+{
+  "portfolio": {
+    "userName": "Maya (Alex Vance)",
+    "membership": "PRO Member",
+    "netWorth": 143300,
+    "yoyGrowthPct": 14.2,
+    "last12MonthsAddition": 17680,
+    "healthScore": 84,
+    "healthScoreStatus": "Prime Trajectory",
+    "monthlyIncome": 8200,
+    "monthlyExpenses": 4650,
+    "monthlySavings": 3550,
+    "investableSurplus": 2550,
+    "savingsRatePct": 43.3,
+    "idleChecking": 2690,
+    "nextMoveExecuted": true
+  },
+  "goals": [
+    {
+      "id": "goal-emergency",
+      "title": "Emergency Cushion",
+      "icon": "🛡️",
+      "targetAmount": 25000,
+      "currentAmount": 23000,
+      "monthlyRequired": 450,
+      "status": "ahead",
+      "statusLabel": "Ahead by 3 months",
+      "horizon": "short",
+      "priority": "high",
+      "targetYear": 2025,
+      "targetDateLabel": "June 2025",
+      "note": "6 months essential liquid buffer in high-yield vault.",
+      "accountType": "Liquid High-Yield HYSA (4.5%)"
+    },
+    {
+      "id": "goal-tokyo",
+      "title": "Tokyo Sabbatical",
+      "icon": "🇯🇵",
+      "targetAmount": 8000,
+      "currentAmount": 6240,
+      "monthlyRequired": 380,
+      "status": "on_track",
+      "statusLabel": "On Target (Apr 2025)",
+      "horizon": "short",
+      "priority": "medium",
+      "targetYear": 2025,
+      "targetDateLabel": "April 2025",
+      "note": "Japan & Nordic sabbatical travel fund.",
+      "accountType": "Travel Stash Vault"
+    },
+    {
+      "id": "goal-roth",
+      "title": "Roth IRA Max-Out",
+      "icon": "🚀",
+      "targetAmount": 7000,
+      "currentAmount": 5950,
+      "monthlyRequired": 350,
+      "status": "on_track",
+      "statusLabel": "Auto-contribution active",
+      "horizon": "short",
+      "priority": "high",
+      "targetYear": 2025,
+      "targetDateLabel": "Dec 2025",
+      "note": "Maximum tax-advantaged annual retirement contribution.",
+      "accountType": "Vanguard Total Stock Market"
+    },
+    {
+      "id": "goal-downpayment",
+      "title": "Down Payment 2028",
+      "icon": "🏡",
+      "targetAmount": 100000,
+      "currentAmount": 38000,
+      "monthlyRequired": 1420,
+      "status": "attention",
+      "statusLabel": "Behind by $120/mo",
+      "horizon": "medium",
+      "priority": "high",
+      "targetYear": 2028,
+      "targetDateLabel": "July 2028",
+      "note": "20% down payment on urban condo property + closing reserve.",
+      "accountType": "Treasury Bills & Index Funds"
+    },
+    {
+      "id": "goal-studio",
+      "title": "Start Boutique Studio",
+      "icon": "🏪",
+      "targetAmount": 50000,
+      "currentAmount": 18000,
+      "monthlyRequired": 650,
+      "status": "on_track",
+      "statusLabel": "On Track (2029)",
+      "horizon": "medium",
+      "priority": "medium",
+      "targetYear": 2029,
+      "targetDateLabel": "Jan 2029",
+      "note": "Seed capital & 12 months runway for creative consulting studio.",
+      "accountType": "Balanced Growth Portfolio"
+    },
+    {
+      "id": "goal-fire",
+      "title": "Financial Independence (Coast FIRE)",
+      "icon": "⭐",
+      "targetAmount": 1800000,
+      "currentAmount": 142850,
+      "monthlyRequired": 2100,
+      "status": "ahead",
+      "statusLabel": "94% modeled certainty",
+      "horizon": "long",
+      "priority": "high",
+      "targetYear": 2052,
+      "targetDateLabel": "Age 53 (2052)",
+      "note": "Full early retirement corpus with 4% safe withdrawal rate.",
+      "accountType": "Global Equity Index & REITs"
+    }
+  ],
+  "roadmap": [
+    {
+      "id": "m-2025",
+      "year": 2025,
+      "age": 26,
+      "title": "Emergency Reserve",
+      "category": "Safety",
+      "icon": "shield_with_heart",
+      "targetAmount": 25000,
+      "allocatedAmount": 25000,
+      "status": "on_track",
+      "note": "6 months essential liquid buffer in high-yield vault."
+    },
+    {
+      "id": "m-2027",
+      "year": 2027,
+      "age": 28,
+      "title": "Master's Career Pivot",
+      "category": "Career",
+      "icon": "school",
+      "targetAmount": 40000,
+      "allocatedAmount": 32000,
+      "status": "on_track",
+      "note": "Part-time AI / Design engineering graduate certificate."
+    },
+    {
+      "id": "m-2029",
+      "year": 2029,
+      "age": 30,
+      "title": "Dream Wedding & Trip",
+      "category": "Lifestyle",
+      "icon": "favorite",
+      "targetAmount": 35000,
+      "allocatedAmount": 24500,
+      "status": "on_track",
+      "note": "Celebration in Amalfi Coast plus sabbatical month."
+    },
+    {
+      "id": "m-2031",
+      "year": 2031,
+      "age": 32,
+      "title": "First Home Down Payment",
+      "category": "Real Estate",
+      "icon": "home",
+      "targetAmount": 150000,
+      "allocatedAmount": 125500,
+      "status": "alert",
+      "deficitAmount": 24500,
+      "note": "20% down on urban property + closing & reserve."
+    },
+    {
+      "id": "m-2038",
+      "year": 2038,
+      "age": 39,
+      "title": "Start Boutique Studio",
+      "category": "Business",
+      "icon": "storefront",
+      "targetAmount": 120000,
+      "allocatedAmount": 55000,
+      "status": "upcoming",
+      "note": "Founding capital & 18 months runway for independent agency."
+    },
+    {
+      "id": "m-2052",
+      "year": 2052,
+      "age": 53,
+      "title": "Financial Independence",
+      "category": "Retirement",
+      "icon": "wb_sunny",
+      "targetAmount": 2850000,
+      "allocatedAmount": 2680000,
+      "status": "north_star",
+      "note": "Full early retirement at age 53 with 4% safe withdrawal rule."
+    }
+  ],
+  "scenarios": {
+    "scenarioA": {
+      "monthlySavings": 3550,
+      "incomeGrowth": 5,
+      "expenseInflation": 3,
+      "expectedRoi": 7.5,
+      "retirementAge": 58
+    },
+    "scenarioB": {
+      "monthlySavings": 4150,
+      "incomeGrowth": 7,
+      "expenseInflation": 2.8,
+      "expectedRoi": 9.2,
+      "retirementAge": 53
+    },
+    "activeScenario": "B"
+  },
+  "transfers": [
+    {
+      "id": "t-1792502204196",
+      "name": "Vanguard Index Fund (Auto Move)",
+      "subtitle": "Idle Checking Sweep • Just now",
+      "amount": 450,
+      "status": "Settled",
+      "icon": "⚡",
+      "date": "Just now"
+    },
+    {
+      "id": "t-1",
+      "name": "Vanguard S&P 500",
+      "subtitle": "Weekly DCA • Yesterday",
+      "amount": 250,
+      "status": "Settled",
+      "icon": "🌱",
+      "date": "Yesterday"
+    },
+    {
+      "id": "t-2",
+      "name": "Ally High-Yield 4.5%",
+      "subtitle": "Auto Savings • Oct 28",
+      "amount": 400,
+      "status": "Settled",
+      "icon": "🏦",
+      "date": "Oct 28"
+    },
+    {
+      "id": "t-3",
+      "name": "Travel Stash Vault",
+      "subtitle": "Scheduled • Nov 1",
+      "amount": 150,
+      "status": "Queued",
+      "icon": "✈️",
+      "date": "Nov 1"
+    }
+  ],
+  "chatHistory": [
+    {
+      "id": "usr-1792502566386",
+      "sender": "user",
+      "text": "i want to buy a bike cost 1 lakh ",
+      "timestamp": "06:52 pm"
+    },
+    {
+      "id": "ai-1792502566388",
+      "sender": "ai",
+      "text": "### Real-Time Financial Ledger Synthesis for \"i want to buy a bike cost 1 lakh \":\n\n• **Portfolio Snapshot**: Consolidated Net Worth of **$1,43,300** (+14.2% YoY).\n• **Cashflow Performance**: Saving **$3,550** of $8,200 monthly (43.3% savings rate, top 6% in disciplined surplus allocation).\n• **Milestones**: 5 goals on track, 1 attention needed (2031 Home Down Payment).\n• **Recommendation**: All core indicators are primed for wealth velocity. To stress-test alternative paths, navigate to the **Scenario Simulator** or adjust allocations in the **Goals Manager**.",
+      "timestamp": "06:52 pm",
+      "tags": [
+        "Lumo Quantitative Engine",
+        "Portfolio Telemetry"
+      ]
+    },
+    {
+      "id": "usr-1792502791699",
+      "sender": "user",
+      "text": "How do I configure my Lumo account and telemetry?",
+      "timestamp": "06:56 pm"
+    },
+    {
+      "id": "ai-1792502791700",
+      "sender": "ai",
+      "text": "### Real-Time Financial Ledger Synthesis for \"How do I configure my Lumo account and telemetry?\":\n\n• **Portfolio Snapshot**: Consolidated Net Worth of **$1,43,300** (+14.2% YoY).\n• **Cashflow Performance**: Saving **$3,550** of $8,200 monthly (43.3% savings rate, top 6% in disciplined surplus allocation).\n• **Milestones**: 5 goals on track, 1 attention needed (2031 Home Down Payment).\n• **Recommendation**: All core indicators are primed for wealth velocity. To stress-test alternative paths, navigate to the **Scenario Simulator** or adjust allocations in the **Goals Manager**.",
+      "timestamp": "06:56 pm",
+      "tags": [
+        "Lumo Quantitative Engine",
+        "Portfolio Telemetry"
+      ]
+    },
+    {
+      "id": "usr-1792502823669",
+      "sender": "user",
+      "text": "open roadmap",
+      "timestamp": "06:57 pm"
+    },
+    {
+      "id": "ai-1792502823670",
+      "sender": "ai",
+      "text": "### Real-Time Financial Ledger Synthesis for \"open roadmap\":\n\n• **Portfolio Snapshot**: Consolidated Net Worth of **$1,43,300** (+14.2% YoY).\n• **Cashflow Performance**: Saving **$3,550** of $8,200 monthly (43.3% savings rate, top 6% in disciplined surplus allocation).\n• **Milestones**: 5 goals on track, 1 attention needed (2031 Home Down Payment).\n• **Recommendation**: All core indicators are primed for wealth velocity. To stress-test alternative paths, navigate to the **Scenario Simulator** or adjust allocations in the **Goals Manager**.",
+      "timestamp": "06:57 pm",
+      "tags": [
+        "Lumo Quantitative Engine",
+        "Portfolio Telemetry"
+      ]
+    },
+    {
+      "id": "usr-1792502823676",
+      "sender": "user",
+      "text": "open roadmap",
+      "timestamp": "06:57 pm"
+    },
+    {
+      "id": "ai-1792502823686",
+      "sender": "ai",
+      "text": "### Real-Time Financial Ledger Synthesis for \"open roadmap\":\n\n• **Portfolio Snapshot**: Consolidated Net Worth of **$1,43,300** (+14.2% YoY).\n• **Cashflow Performance**: Saving **$3,550** of $8,200 monthly (43.3% savings rate, top 6% in disciplined surplus allocation).\n• **Milestones**: 5 goals on track, 1 attention needed (2031 Home Down Payment).\n• **Recommendation**: All core indicators are primed for wealth velocity. To stress-test alternative paths, navigate to the **Scenario Simulator** or adjust allocations in the **Goals Manager**.",
+      "timestamp": "06:57 pm",
+      "tags": [
+        "Lumo Quantitative Engine",
+        "Portfolio Telemetry"
+      ]
+    },
+    {
+      "id": "usr-1792502864579",
+      "sender": "user",
+      "text": "Can I buy a car right now?",
+      "timestamp": "06:57 pm"
+    },
+    {
+      "id": "ai-1792502864590",
+      "sender": "ai",
+      "text": "### Affordability & Capital Allocation Diagnostics:\n\nBased on your current cashflow ($8,200/mo income vs $4,650/mo living costs):\n\n1. **Monthly Discretionary Velocity**:\n   • You generate **$2,550/mo in investable surplus** beyond baseline needs.\n   • Your liquid checking holds **$2,690** and your Emergency Fund is fully fortified with **$23,000** (5 months of reserves).\n\n2. **Purchasing Capacity Guidelines**:\n   • **Cash Purchases Under $5,000**: **Fully Affordable today** without impacting your long-term goals. However, pay from discretionary surplus or idle checking—do NOT deplete your $23,000 emergency cushion.\n   • **Vehicles ($35,000 - $55,000)**: If financed at standard rates (~$650/mo), your monthly savings rate drops from 43.3% to **35.4%**. This would push your 2052 retirement target back by approximately 14 months unless offset by income growth.\n   • **Priority Preservation**: Remember that your 2031 Home Down Payment already faces a **-$24,500 deficit**. Any extra recurring obligation will widen this deficit unless scheduled after 2031.\n\n3. **Fiduciary Recommendation**:\n   • Cap total monthly vehicle or discretionary debt at **<$500/month**.\n   • Maintain your **43.3% savings velocity** to ensure your early retirement at Age 53 remains on its 94% modeled certainty track.",
+      "timestamp": "06:57 pm",
+      "tags": [
+        "Affordability Assessment",
+        "Cashflow Stress Test",
+        "Capital Preservation"
+      ],
+      "metrics": [
+        {
+          "label": "Monthly Surplus",
+          "value": "$2,550"
+        },
+        {
+          "label": "Emergency Buffer",
+          "value": "$23,000"
+        },
+        {
+          "label": "Max Safe Payment",
+          "value": "<$500/mo"
+        }
+      ]
+    },
+    {
+      "id": "usr-1792502870964",
+      "sender": "user",
+      "text": "When will I reach 1 million dollars?",
+      "timestamp": "06:57 pm"
+    },
+    {
+      "id": "ai-1792502870965",
+      "sender": "ai",
+      "text": "### Wealth Inflection Trajectory & Milestone Projections:\n\nStarting with your consolidated **$1,43,300** net worth, saving **$3,550/month** ($42,600/year) invested at an **8.5% expected equity CAGR**:\n\n• 🎯 **$250,000 Quarter-Million Milestone**: Projected in **2.1 years** (mid-2028, at Age 29).\n• 🎯 **$500,000 Half-Million Milestone**: Projected in **5.8 years** (early 2032, at Age 33).\n• 🏆 **$1,000,000 (Liquid Millionaire)**: Projected in **11.2 years** (mid-2037, at Age 38).\n• 🚀 **$2,850,000 (Early FIRE Corpus)**: Reached at **Age 53 (2052)** under Scenario B.\n\n**Key Compounding Takeaway**: It takes ~11 years to reach the first million, but only ~7 years to reach the second million because compound interest generates more annual return than your salary!",
+      "timestamp": "06:57 pm",
+      "tags": [
+        "Monte Carlo Wealth Path",
+        "Compound Velocity",
+        "Milestone Milestones"
+      ],
+      "metrics": [
+        {
+          "label": "$250k Milestone",
+          "value": "Mid 2028"
+        },
+        {
+          "label": "$500k Milestone",
+          "value": "Early 2032"
+        },
+        {
+          "label": "$1M Net Worth",
+          "value": "Age 38 (2037)"
+        }
+      ]
+    },
+    {
+      "id": "usr-1792502878611",
+      "sender": "user",
+      "text": "Am I saving enough for the Tokyo sabbatical?",
+      "timestamp": "06:57 pm"
+    },
+    {
+      "id": "ai-1792502878616",
+      "sender": "ai",
+      "text": "### Tokyo Sabbatical Travel Fund Diagnostics:\n\n• **Current Progress**: You have saved **$6,240** of your **$8,000** target (**78% completed**).\n• **Remaining Capital Needed**: **$1,760**.\n• **Timeline & Feasibility**: At your current contribution of **$380/mo**, you will fully achieve your target in **4.6 months** (on track for April 2025).\n• **Optimization Tip**: You currently hold **$2,690 in idle checking**. If you do a one-time allocation of $1,000 from checking, your Tokyo sabbatical becomes **90.5% funded immediately**, locking in your travel dates ahead of peak flight rate hikes.",
+      "timestamp": "06:57 pm",
+      "tags": [
+        "Goal Deep Dive",
+        "Travel Sabbatical",
+        "Velocity Verified"
+      ],
+      "metrics": [
+        {
+          "label": "Progress",
+          "value": "78%"
+        },
+        {
+          "label": "Remaining",
+          "value": "$1,760"
+        },
+        {
+          "label": "Target Date",
+          "value": "April 2025"
+        }
+      ]
+    },
+    {
+      "id": "usr-1792502887580",
+      "sender": "user",
+      "text": "Should I buy Bitcoin?",
+      "timestamp": "06:58 pm"
+    },
+    {
+      "id": "ai-1792502887581",
+      "sender": "ai",
+      "text": "### Speculative Asset & Cryptocurrency Fiduciary Guidelines:\n\n• **Exposure Limit**: For long-term wealth preservation, speculative digital assets should NOT exceed **3% to 5%** of your liquid net worth (between **$4,300 and $7,100**).\n• **Guardrails**:\n  - Never divert capital from your Emergency Cushion ($23,000) or Home Down Payment ($125,500).\n  - Treat crypto investments as high-volatility asymmetric bets; do not rely on crypto appreciation to cover down payment deadlines.\n• **Execution**: If you want crypto exposure, cap dollar-cost-averaging at **$100 to $150/month** strictly out of your discretionary allowance ($450/mo).",
+      "timestamp": "06:58 pm",
+      "tags": [
+        "Risk Control",
+        "Alternative Assets",
+        "Volatility Guard"
+      ],
+      "metrics": [
+        {
+          "label": "Max Safe Allocation",
+          "value": "3% - 5%"
+        },
+        {
+          "label": "Max Safe Value",
+          "value": "$4,300 - $7,100"
+        },
+        {
+          "label": "Suggested DCA",
+          "value": "<$150/mo"
+        }
+      ]
+    },
+    {
+      "id": "usr-1792502944423",
+      "sender": "user",
+      "text": "Can I buy a car?",
+      "timestamp": "06:59 pm"
+    },
+    {
+      "id": "ai-1792502944425",
+      "sender": "ai",
+      "text": "### Affordability & Capital Allocation Diagnostics:\n\nBased on your current cashflow ($8,200/mo income vs $4,650/mo living costs):\n\n1. **Monthly Discretionary Velocity**:\n   • You generate **$2,550/mo in investable surplus** beyond baseline needs.\n   • Your liquid checking holds **$2,690** and your Emergency Fund is fully fortified with **$23,000** (5 months of reserves).\n\n2. **Purchasing Capacity Guidelines**:\n   • **Cash Purchases Under $5,000**: **Fully Affordable today** without impacting your long-term goals. However, pay from discretionary surplus or idle checking—do NOT deplete your $23,000 emergency cushion.\n   • **Vehicles ($35,000 - $55,000)**: If financed at standard rates (~$650/mo), your monthly savings rate drops from 43.3% to **35.4%**. This would push your 2052 retirement target back by approximately 14 months unless offset by income growth.\n   • **Priority Preservation**: Remember that your 2031 Home Down Payment already faces a **-$24,500 deficit**. Any extra recurring obligation will widen this deficit unless scheduled after 2031.\n\n3. **Fiduciary Recommendation**:\n   • Cap total monthly vehicle or discretionary debt at **<$500/month**.\n   • Maintain your **43.3% savings velocity** to ensure your early retirement at Age 53 remains on its 94% modeled certainty track.",
+      "timestamp": "06:59 pm",
+      "tags": [
+        "Affordability Assessment",
+        "Cashflow Stress Test",
+        "Capital Preservation"
+      ],
+      "metrics": [
+        {
+          "label": "Monthly Surplus",
+          "value": "$2,550"
+        },
+        {
+          "label": "Emergency Buffer",
+          "value": "$23,000"
+        },
+        {
+          "label": "Max Safe Payment",
+          "value": "<$500/mo"
+        }
+      ]
+    },
+    {
+      "id": "usr-1792503000889",
+      "sender": "user",
+      "text": "give me a roadmap to save 1 lakh rupee",
+      "timestamp": "07:00 pm"
+    },
+    {
+      "id": "ai-1792503000890",
+      "sender": "ai",
+      "text": "### Real-Time Financial Advisory Analysis for: \"give me a roadmap to save 1 lakh rupee\"\n\n1. **Portfolio Alignment**:\n   • Your current consolidated Net Worth is **$1,43,300** with an annual growth rate of **+14.2%**.\n   • You are generating **$3,550/mo in savings** out of $8,200 monthly income (a healthy **43.3% savings rate**).\n\n2. **Fiduciary Guidance on \"give me a roadmap to save 1 lakh rupee\"**:\n   • When considering any strategic shift or expense, preserve your **$23,000 liquid safety buffer** in the 4.5% HYSA.\n   • Your highest immediate priority is resolving the **-$24,500 Home Down Payment gap for 2031**, which can be fixed by deploying **+$210/mo from your $2,690 idle checking**.\n   • For long-term goals, continue dollar-cost-averaging into low-cost index funds to stay on target for **$2.85M at Age 53**.\n\n3. **Recommended Next Steps**:\n   • Visit the **Roadmap** tab to apply Option A and lock in the 2031 Home Down Payment.\n   • Test alternative growth assumptions in the **Scenario Simulator**.",
+      "timestamp": "07:00 pm",
+      "tags": [
+        "Lumo Fiduciary Intelligence",
+        "Ledger Synchronized",
+        "Precision Modeling"
+      ],
+      "metrics": [
+        {
+          "label": "Net Worth",
+          "value": "$1,43,300"
+        },
+        {
+          "label": "Savings Rate",
+          "value": "43.3%"
+        },
+        {
+          "label": "Health Score",
+          "value": "84/100"
+        }
+      ]
+    },
+    {
+      "id": "usr-1792503053802",
+      "sender": "user",
+      "text": "hi",
+      "timestamp": "07:00 pm"
+    },
+    {
+      "id": "ai-1792503053803",
+      "sender": "ai",
+      "text": "### Hello Maya! I am Lumo, your fiduciary AI financial copilot.\n\nI have direct, real-time programmatic access to your complete financial ledger and multi-decadal wealth projections:\n\n• **Your Balance Sheet**: Consolidated Net Worth of **$1,43,300** (+14.2% YoY).\n• **Cashflow Power**: Saving **$3,550/month** out of $8,200 (a stellar **43.3% savings rate**).\n• **Immediate Opportunity**: You have **$2,690 in idle checking** that can earn an extra +$18,400 in 10-year compounding.\n• **Critical Action**: Your 2031 Home Down Payment currently has a **-$24,500 gap** that we can easily solve today.\n\n**What would you like to explore?**\n1. *\"How do I fix the 2031 Home Down Payment deficit?\"*\n2. *\"Can I afford a major purchase (e.g., a car or vacation)?\"*\n3. *\"When will I reach $500k or $1 Million net worth?\"*\n4. *\"Can you analyze my monthly spending and budget?\"*",
+      "timestamp": "07:00 pm",
+      "tags": [
+        "Lumo Fiduciary Copilot",
+        "Executive Overview"
+      ],
+      "metrics": [
+        {
+          "label": "Net Worth",
+          "value": "$1,43,300"
+        },
+        {
+          "label": "Savings Rate",
+          "value": "43.3%"
+        },
+        {
+          "label": "Idle Checking",
+          "value": "$2,690"
+        }
+      ]
+    },
+    {
+      "id": "usr-1792503053809",
+      "sender": "user",
+      "text": "hi",
+      "timestamp": "07:00 pm"
+    },
+    {
+      "id": "ai-1792503053821",
+      "sender": "ai",
+      "text": "### Hello Maya! I am Lumo, your fiduciary AI financial copilot.\n\nI have direct, real-time programmatic access to your complete financial ledger and multi-decadal wealth projections:\n\n• **Your Balance Sheet**: Consolidated Net Worth of **$1,43,300** (+14.2% YoY).\n• **Cashflow Power**: Saving **$3,550/month** out of $8,200 (a stellar **43.3% savings rate**).\n• **Immediate Opportunity**: You have **$2,690 in idle checking** that can earn an extra +$18,400 in 10-year compounding.\n• **Critical Action**: Your 2031 Home Down Payment currently has a **-$24,500 gap** that we can easily solve today.\n\n**What would you like to explore?**\n1. *\"How do I fix the 2031 Home Down Payment deficit?\"*\n2. *\"Can I afford a major purchase (e.g., a car or vacation)?\"*\n3. *\"When will I reach $500k or $1 Million net worth?\"*\n4. *\"Can you analyze my monthly spending and budget?\"*",
+      "timestamp": "07:00 pm",
+      "tags": [
+        "Lumo Fiduciary Copilot",
+        "Executive Overview"
+      ],
+      "metrics": [
+        {
+          "label": "Net Worth",
+          "value": "$1,43,300"
+        },
+        {
+          "label": "Savings Rate",
+          "value": "43.3%"
+        },
+        {
+          "label": "Idle Checking",
+          "value": "$2,690"
+        }
+      ]
+    },
+    {
+      "id": "usr-1792503717630",
+      "sender": "user",
+      "text": "Can I buy a car?",
+      "timestamp": "07:11 pm"
+    },
+    {
+      "id": "ai-1792503717644",
+      "sender": "ai",
+      "text": "### Affordability Assessment for Major Purchases:\n\n1. Cashflow Capacity: You generate $2,550/mo in investable surplus and hold $2,690 in checking buffer.\n2. Safe Purchase Limit: Cash purchases up to $4,500 are fully affordable today from your monthly surplus without touching your $23,000 emergency fund.\n3. Vehicle Financing: A $500–$650/mo car payment reduces your savings rate from 43.3% to ~36%, delaying your early retirement by ~14 months.\n4. Recommendation: If buying a car, cap monthly payments under $450/mo to preserve your 2031 Home Down Payment target.",
+      "timestamp": "07:11 pm",
+      "tags": [
+        "Affordability",
+        "Purchasing Capacity"
+      ],
+      "metrics": [
+        {
+          "label": "Monthly Surplus",
+          "value": "$2,550"
+        },
+        {
+          "label": "Safe Cash Limit",
+          "value": "$4,500"
+        },
+        {
+          "label": "Max Car Payment",
+          "value": "<$450/mo"
+        }
+      ]
+    },
+    {
+      "id": "usr-1792503797147",
+      "sender": "user",
+      "text": "hi maya here ",
+      "timestamp": "07:13 pm"
+    },
+    {
+      "id": "ai-1792503797149",
+      "sender": "ai",
+      "text": "### Financial Advisory Analysis for: \"hi maya here \"\n\n• Your Current Status: Net Worth $1,43,300, saving $3,550/mo (43.3% savings rate).\n• Safety Reserves: $23,000 fully liquid in 4.5% HYSA covering 5 months of living expenses.\n• Key Priority: Fix the -$24,500 Home Down Payment gap for 2031 using +$210/mo from checking.\n• Long-Term Path: On track for early retirement at Age 53 with $2.85M corpus.",
+      "timestamp": "07:13 pm",
+      "tags": [
+        "Lumo Copilot",
+        "Telemetry Synced"
+      ],
+      "metrics": [
+        {
+          "label": "Net Worth",
+          "value": "$1,43,300"
+        },
+        {
+          "label": "Savings Rate",
+          "value": "43.3%"
+        },
+        {
+          "label": "Health Score",
+          "value": "84/100"
+        }
+      ]
+    },
+    {
+      "id": "usr-1792503820794",
+      "sender": "user",
+      "text": "open my dash board ",
+      "timestamp": "07:13 pm"
+    },
+    {
+      "id": "ai-1792503820796",
+      "sender": "ai",
+      "text": "### Financial Advisory Analysis for: \"open my dash board \"\n\n• Your Current Status: Net Worth $1,43,300, saving $3,550/mo (43.3% savings rate).\n• Safety Reserves: $23,000 fully liquid in 4.5% HYSA covering 5 months of living expenses.\n• Key Priority: Fix the -$24,500 Home Down Payment gap for 2031 using +$210/mo from checking.\n• Long-Term Path: On track for early retirement at Age 53 with $2.85M corpus.",
+      "timestamp": "07:13 pm",
+      "tags": [
+        "Lumo Copilot",
+        "Telemetry Synced"
+      ],
+      "metrics": [
+        {
+          "label": "Net Worth",
+          "value": "$1,43,300"
+        },
+        {
+          "label": "Savings Rate",
+          "value": "43.3%"
+        },
+        {
+          "label": "Health Score",
+          "value": "84/100"
+        }
+      ]
+    },
+    {
+      "id": "usr-1792503889160",
+      "sender": "user",
+      "text": "can you tell how much time it will take to save 1 crore rupees  ",
+      "timestamp": "07:14 pm"
+    },
+    {
+      "id": "ai-1792503889162",
+      "sender": "ai",
+      "text": "### Financial Advisory Analysis for: \"can you tell how much time it will take to save 1 crore rupees  \"\n\n• Your Current Status: Net Worth $1,43,300, saving $3,550/mo (43.3% savings rate).\n• Safety Reserves: $23,000 fully liquid in 4.5% HYSA covering 5 months of living expenses.\n• Key Priority: Fix the -$24,500 Home Down Payment gap for 2031 using +$210/mo from checking.\n• Long-Term Path: On track for early retirement at Age 53 with $2.85M corpus.",
+      "timestamp": "07:14 pm",
+      "tags": [
+        "Lumo Copilot",
+        "Telemetry Synced"
+      ],
+      "metrics": [
+        {
+          "label": "Net Worth",
+          "value": "$1,43,300"
+        },
+        {
+          "label": "Savings Rate",
+          "value": "43.3%"
+        },
+        {
+          "label": "Health Score",
+          "value": "84/100"
+        }
+      ]
+    },
+    {
+      "id": "usr-1792504175489",
+      "sender": "user",
+      "text": "hi",
+      "timestamp": "07:19 pm"
+    },
+    {
+      "id": "ai-1792504175493",
+      "sender": "ai",
+      "text": "### Hello Maya! I am Lumo, your AI financial copilot.\n\nHere is your current financial summary:\n• Net Worth: $1,43,300 (+14.2% YoY growth)\n• Cashflow: Saving $3,550/mo (43.3% savings rate)\n• Liquid Buffer: $23,000 in 4.5% Emergency HYSA (5 months covered)\n• Immediate Action: $2,690 in checking is ready for surplus compounding.\n\nAsk me about your 2031 house down payment, major purchases, investments, or early retirement.",
+      "timestamp": "07:19 pm",
+      "tags": [
+        "Lumo Copilot",
+        "Overview"
+      ],
+      "metrics": [
+        {
+          "label": "Net Worth",
+          "value": "$1,43,300"
+        },
+        {
+          "label": "Savings Rate",
+          "value": "43.3%"
+        },
+        {
+          "label": "Emergency Fund",
+          "value": "$23,000"
+        }
+      ]
+    },
+    {
+      "id": "usr-1792504175524",
+      "sender": "user",
+      "text": "hi",
+      "timestamp": "07:19 pm"
+    },
+    {
+      "id": "ai-1792504175537",
+      "sender": "ai",
+      "text": "### Hello Maya! I am Lumo, your AI financial copilot.\n\nHere is your current financial summary:\n• Net Worth: $1,43,300 (+14.2% YoY growth)\n• Cashflow: Saving $3,550/mo (43.3% savings rate)\n• Liquid Buffer: $23,000 in 4.5% Emergency HYSA (5 months covered)\n• Immediate Action: $2,690 in checking is ready for surplus compounding.\n\nAsk me about your 2031 house down payment, major purchases, investments, or early retirement.",
+      "timestamp": "07:19 pm",
+      "tags": [
+        "Lumo Copilot",
+        "Overview"
+      ],
+      "metrics": [
+        {
+          "label": "Net Worth",
+          "value": "$1,43,300"
+        },
+        {
+          "label": "Savings Rate",
+          "value": "43.3%"
+        },
+        {
+          "label": "Emergency Fund",
+          "value": "$23,000"
+        }
+      ]
+    },
+    {
+      "id": "usr-1792504208298",
+      "sender": "user",
+      "text": "hi",
+      "timestamp": "07:20 pm"
+    },
+    {
+      "id": "ai-1792504208300",
+      "sender": "ai",
+      "text": "### Hello Maya! I am Lumo, your AI financial copilot.\n\nHere is your current financial summary:\n• Net Worth: $1,43,300 (+14.2% YoY growth)\n• Cashflow: Saving $3,550/mo (43.3% savings rate)\n• Liquid Buffer: $23,000 in 4.5% Emergency HYSA (5 months covered)\n• Immediate Action: $2,690 in checking is ready for surplus compounding.\n\nAsk me about your 2031 house down payment, major purchases, investments, or early retirement.",
+      "timestamp": "07:20 pm",
+      "tags": [
+        "Lumo Copilot",
+        "Overview"
+      ],
+      "metrics": [
+        {
+          "label": "Net Worth",
+          "value": "$1,43,300"
+        },
+        {
+          "label": "Savings Rate",
+          "value": "43.3%"
+        },
+        {
+          "label": "Emergency Fund",
+          "value": "$23,000"
+        }
+      ]
+    },
+    {
+      "id": "usr-1792504208307",
+      "sender": "user",
+      "text": "hi",
+      "timestamp": "07:20 pm"
+    },
+    {
+      "id": "ai-1792504208326",
+      "sender": "ai",
+      "text": "### Hello Maya! I am Lumo, your AI financial copilot.\n\nHere is your current financial summary:\n• Net Worth: $1,43,300 (+14.2% YoY growth)\n• Cashflow: Saving $3,550/mo (43.3% savings rate)\n• Liquid Buffer: $23,000 in 4.5% Emergency HYSA (5 months covered)\n• Immediate Action: $2,690 in checking is ready for surplus compounding.\n\nAsk me about your 2031 house down payment, major purchases, investments, or early retirement.",
+      "timestamp": "07:20 pm",
+      "tags": [
+        "Lumo Copilot",
+        "Overview"
+      ],
+      "metrics": [
+        {
+          "label": "Net Worth",
+          "value": "$1,43,300"
+        },
+        {
+          "label": "Savings Rate",
+          "value": "43.3%"
+        },
+        {
+          "label": "Emergency Fund",
+          "value": "$23,000"
+        }
+      ]
+    }
+  ]
+}
